@@ -41,140 +41,144 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = E$:/Code/clion_code/practice/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target main.cpp
+# Object build statements for EXECUTABLE target main
 
 
 #############################################
-# Order-only phony target for main.cpp
+# Order-only phony target for main
 
-build cmake_object_order_depends_target_main.cpp: phony || .
+build cmake_object_order_depends_target_main: phony || .
 
-build CMakeFiles/main.cpp.dir/src/main.cpp.obj: CXX_COMPILER__main.2ecpp_unscanned_Debug E$:/Code/clion_code/practice/src/main.cpp || cmake_object_order_depends_target_main.cpp
-  DEP_FILE = CMakeFiles\main.cpp.dir\src\main.cpp.obj.d
+build CMakeFiles/main.dir/src/test/main.cpp.obj: CXX_COMPILER__main_unscanned_Debug E$:/Code/clion_code/practice/src/test/main.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\src\test\main.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IE:/Code/clion_code/practice/src
-  OBJECT_DIR = CMakeFiles\main.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.cpp.dir\src
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir\src\test
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target main.cpp
+# Link build statements for EXECUTABLE target main
 
 
 #############################################
-# Link the executable E:\Code\clion_code\practice\.runtime\main.cpp.exe
+# Link the executable E:\Code\clion_code\practice\.runtime\main.exe
 
-build E$:/Code/clion_code/practice/.runtime/main.cpp.exe: CXX_EXECUTABLE_LINKER__main.2ecpp_Debug CMakeFiles/main.cpp.dir/src/main.cpp.obj
+build E$:/Code/clion_code/practice/.runtime/main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/src/test/main.cpp.obj
   FLAGS = -g
+  LINK_FLAGS = -static-libgcc -static-libstdc++
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\main.cpp.dir
+  OBJECT_DIR = CMakeFiles\main.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = E:\Code\clion_code\practice\.runtime\main.cpp.exe
-  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libmain.cpp.dll.a
-  TARGET_PDB = main.cpp.exe.dbg
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\main.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libmain.dll.a
+  TARGET_PDB = main.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target test1.cpp
+# Object build statements for EXECUTABLE target test1
 
 
 #############################################
-# Order-only phony target for test1.cpp
+# Order-only phony target for test1
 
-build cmake_object_order_depends_target_test1.cpp: phony || .
+build cmake_object_order_depends_target_test1: phony || .
 
-build CMakeFiles/test1.cpp.dir/src/test1.cpp.obj: CXX_COMPILER__test1.2ecpp_unscanned_Debug E$:/Code/clion_code/practice/src/test1.cpp || cmake_object_order_depends_target_test1.cpp
-  DEP_FILE = CMakeFiles\test1.cpp.dir\src\test1.cpp.obj.d
+build CMakeFiles/test1.dir/src/test/test1.cpp.obj: CXX_COMPILER__test1_unscanned_Debug E$:/Code/clion_code/practice/src/test/test1.cpp || cmake_object_order_depends_target_test1
+  DEP_FILE = CMakeFiles\test1.dir\src\test\test1.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IE:/Code/clion_code/practice/src
-  OBJECT_DIR = CMakeFiles\test1.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\test1.cpp.dir\src
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\test1.dir
+  OBJECT_FILE_DIR = CMakeFiles\test1.dir\src\test
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target test1.cpp
+# Link build statements for EXECUTABLE target test1
 
 
 #############################################
-# Link the executable E:\Code\clion_code\practice\.runtime\test1.cpp.exe
+# Link the executable E:\Code\clion_code\practice\.runtime\test1.exe
 
-build E$:/Code/clion_code/practice/.runtime/test1.cpp.exe: CXX_EXECUTABLE_LINKER__test1.2ecpp_Debug CMakeFiles/test1.cpp.dir/src/test1.cpp.obj
+build E$:/Code/clion_code/practice/.runtime/test1.exe: CXX_EXECUTABLE_LINKER__test1_Debug CMakeFiles/test1.dir/src/test/test1.cpp.obj
   FLAGS = -g
+  LINK_FLAGS = -static-libgcc -static-libstdc++
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\test1.cpp.dir
+  OBJECT_DIR = CMakeFiles\test1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = E:\Code\clion_code\practice\.runtime\test1.cpp.exe
-  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libtest1.cpp.dll.a
-  TARGET_PDB = test1.cpp.exe.dbg
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\test1.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libtest1.dll.a
+  TARGET_PDB = test1.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target test2.cpp
+# Object build statements for EXECUTABLE target test2
 
 
 #############################################
-# Order-only phony target for test2.cpp
+# Order-only phony target for test2
 
-build cmake_object_order_depends_target_test2.cpp: phony || .
+build cmake_object_order_depends_target_test2: phony || .
 
-build CMakeFiles/test2.cpp.dir/src/test2.cpp.obj: CXX_COMPILER__test2.2ecpp_unscanned_Debug E$:/Code/clion_code/practice/src/test2.cpp || cmake_object_order_depends_target_test2.cpp
-  DEP_FILE = CMakeFiles\test2.cpp.dir\src\test2.cpp.obj.d
+build CMakeFiles/test2.dir/src/test/test2.cpp.obj: CXX_COMPILER__test2_unscanned_Debug E$:/Code/clion_code/practice/src/test/test2.cpp || cmake_object_order_depends_target_test2
+  DEP_FILE = CMakeFiles\test2.dir\src\test\test2.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IE:/Code/clion_code/practice/src
-  OBJECT_DIR = CMakeFiles\test2.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\test2.cpp.dir\src
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\test2.dir
+  OBJECT_FILE_DIR = CMakeFiles\test2.dir\src\test
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target test2.cpp
+# Link build statements for EXECUTABLE target test2
 
 
 #############################################
-# Link the executable E:\Code\clion_code\practice\.runtime\test2.cpp.exe
+# Link the executable E:\Code\clion_code\practice\.runtime\test2.exe
 
-build E$:/Code/clion_code/practice/.runtime/test2.cpp.exe: CXX_EXECUTABLE_LINKER__test2.2ecpp_Debug CMakeFiles/test2.cpp.dir/src/test2.cpp.obj
+build E$:/Code/clion_code/practice/.runtime/test2.exe: CXX_EXECUTABLE_LINKER__test2_Debug CMakeFiles/test2.dir/src/test/test2.cpp.obj
   FLAGS = -g
+  LINK_FLAGS = -static-libgcc -static-libstdc++
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\test2.cpp.dir
+  OBJECT_DIR = CMakeFiles\test2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = E:\Code\clion_code\practice\.runtime\test2.cpp.exe
-  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libtest2.cpp.dll.a
-  TARGET_PDB = test2.cpp.exe.dbg
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\test2.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libtest2.dll.a
+  TARGET_PDB = test2.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target test3.cpp
+# Object build statements for EXECUTABLE target test3
 
 
 #############################################
-# Order-only phony target for test3.cpp
+# Order-only phony target for test3
 
-build cmake_object_order_depends_target_test3.cpp: phony || .
+build cmake_object_order_depends_target_test3: phony || .
 
-build CMakeFiles/test3.cpp.dir/src/test3.cpp.obj: CXX_COMPILER__test3.2ecpp_unscanned_Debug E$:/Code/clion_code/practice/src/test3.cpp || cmake_object_order_depends_target_test3.cpp
-  DEP_FILE = CMakeFiles\test3.cpp.dir\src\test3.cpp.obj.d
+build CMakeFiles/test3.dir/src/test/test3.cpp.obj: CXX_COMPILER__test3_unscanned_Debug E$:/Code/clion_code/practice/src/test/test3.cpp || cmake_object_order_depends_target_test3
+  DEP_FILE = CMakeFiles\test3.dir\src\test\test3.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IE:/Code/clion_code/practice/src
-  OBJECT_DIR = CMakeFiles\test3.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\test3.cpp.dir\src
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\test3.dir
+  OBJECT_FILE_DIR = CMakeFiles\test3.dir\src\test
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target test3.cpp
+# Link build statements for EXECUTABLE target test3
 
 
 #############################################
-# Link the executable E:\Code\clion_code\practice\.runtime\test3.cpp.exe
+# Link the executable E:\Code\clion_code\practice\.runtime\test3.exe
 
-build E$:/Code/clion_code/practice/.runtime/test3.cpp.exe: CXX_EXECUTABLE_LINKER__test3.2ecpp_Debug CMakeFiles/test3.cpp.dir/src/test3.cpp.obj
+build E$:/Code/clion_code/practice/.runtime/test3.exe: CXX_EXECUTABLE_LINKER__test3_Debug CMakeFiles/test3.dir/src/test/test3.cpp.obj
   FLAGS = -g
+  LINK_FLAGS = -static-libgcc -static-libstdc++
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\test3.cpp.dir
+  OBJECT_DIR = CMakeFiles\test3.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = E:\Code\clion_code\practice\.runtime\test3.cpp.exe
-  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libtest3.cpp.dll.a
-  TARGET_PDB = test3.cpp.exe.dbg
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\test3.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libtest3.dll.a
+  TARGET_PDB = test3.exe.dbg
 
 
 #############################################
@@ -202,21 +206,21 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build main.cpp: phony E$:/Code/clion_code/practice/.runtime/main.cpp.exe
+build main: phony E$:/Code/clion_code/practice/.runtime/main.exe
 
-build main.cpp.exe: phony E$:/Code/clion_code/practice/.runtime/main.cpp.exe
+build main.exe: phony E$:/Code/clion_code/practice/.runtime/main.exe
 
-build test1.cpp: phony E$:/Code/clion_code/practice/.runtime/test1.cpp.exe
+build test1: phony E$:/Code/clion_code/practice/.runtime/test1.exe
 
-build test1.cpp.exe: phony E$:/Code/clion_code/practice/.runtime/test1.cpp.exe
+build test1.exe: phony E$:/Code/clion_code/practice/.runtime/test1.exe
 
-build test2.cpp: phony E$:/Code/clion_code/practice/.runtime/test2.cpp.exe
+build test2: phony E$:/Code/clion_code/practice/.runtime/test2.exe
 
-build test2.cpp.exe: phony E$:/Code/clion_code/practice/.runtime/test2.cpp.exe
+build test2.exe: phony E$:/Code/clion_code/practice/.runtime/test2.exe
 
-build test3.cpp: phony E$:/Code/clion_code/practice/.runtime/test3.cpp.exe
+build test3: phony E$:/Code/clion_code/practice/.runtime/test3.exe
 
-build test3.cpp.exe: phony E$:/Code/clion_code/practice/.runtime/test3.cpp.exe
+build test3.exe: phony E$:/Code/clion_code/practice/.runtime/test3.exe
 
 # =============================================================================
 # Folder targets.
@@ -226,7 +230,7 @@ build test3.cpp.exe: phony E$:/Code/clion_code/practice/.runtime/test3.cpp.exe
 #############################################
 # Folder: E:/Code/clion_code/practice/cmake-build-debug
 
-build all: phony E$:/Code/clion_code/practice/.runtime/main.cpp.exe E$:/Code/clion_code/practice/.runtime/test1.cpp.exe E$:/Code/clion_code/practice/.runtime/test2.cpp.exe E$:/Code/clion_code/practice/.runtime/test3.cpp.exe
+build all: phony E$:/Code/clion_code/practice/.runtime/main.exe E$:/Code/clion_code/practice/.runtime/test1.exe E$:/Code/clion_code/practice/.runtime/test2.exe E$:/Code/clion_code/practice/.runtime/test3.exe
 
 # =============================================================================
 # Built-in targets

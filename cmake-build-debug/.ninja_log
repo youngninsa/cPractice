@@ -4,4 +4,7 @@
 1159	1385	7568895631244303	E:/Code/clion_code/practice/.runtime/main.exe	64a3bb280445c7cd
 3	389	7563849146815073	CMakeFiles/test3.dir/test3.cpp.obj	e88344eaa17779c3
 3	1158	7568895619691968	CMakeFiles/main.dir/src/main.cpp.obj	124f10148701b98c
-302	377	7568896975048611	E:/Code/clion_code/practice/.runtime/main.cpp.exe	15b651abceb2f282
+4	312	7569105259904260	CMakeFiles/test3.cpp.dir/src/test/test3.cpp.obj	80f4d27b612b7780
+3	309	7569104601981875	CMakeFiles/main.cpp.dir/src/test/main.cpp.obj	491776e83e597471
+2	310	7569228347330337	CMakeFiles/main.dir/src/test/main.cpp.obj	1582bc3f558cfd39
+319	581	7569228350498925	E:/Code/clion_code/practice/.runtime/main.exe	8b9590c180a623d4
