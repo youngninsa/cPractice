@@ -1,0 +1,7 @@
+# ninja log v6
+2	305	7554447122810068	CMakeFiles/main.dir/main.cpp.obj	7f376cc4829030dc
+2	293	7568896972044598	CMakeFiles/main.cpp.dir/src/main.cpp.obj	c319260f8f31984d
+1159	1385	7568895631244303	E:/Code/clion_code/practice/.runtime/main.exe	64a3bb280445c7cd
+3	389	7563849146815073	CMakeFiles/test3.dir/test3.cpp.obj	e88344eaa17779c3
+3	1158	7568895619691968	CMakeFiles/main.dir/src/main.cpp.obj	124f10148701b98c
+302	377	7568896975048611	E:/Code/clion_code/practice/.runtime/main.cpp.exe	15b651abceb2f282

@@ -1,0 +1,6 @@
+E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/main.cpp.dir
+E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/test1.cpp.dir
+E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/test2.cpp.dir
+E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/test3.cpp.dir
+E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
