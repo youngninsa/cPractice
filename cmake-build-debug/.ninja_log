@@ -1,10 +1,17 @@
 # ninja log v6
 2	305	7554447122810068	CMakeFiles/main.dir/main.cpp.obj	7f376cc4829030dc
 2	293	7568896972044598	CMakeFiles/main.cpp.dir/src/main.cpp.obj	c319260f8f31984d
-1159	1385	7568895631244303	E:/Code/clion_code/practice/.runtime/main.exe	64a3bb280445c7cd
+3	292	7569305152938490	E:/Code/clion_code/practice/.runtime/main.exe	8b9590c180a623d4
+4	363	7569305032293849	CMakeFiles/main.dir/src/test/main.cpp.obj	1582bc3f558cfd39
 3	389	7563849146815073	CMakeFiles/test3.dir/test3.cpp.obj	e88344eaa17779c3
 3	1158	7568895619691968	CMakeFiles/main.dir/src/main.cpp.obj	124f10148701b98c
 4	312	7569105259904260	CMakeFiles/test3.cpp.dir/src/test/test3.cpp.obj	80f4d27b612b7780
-3	309	7569104601981875	CMakeFiles/main.cpp.dir/src/test/main.cpp.obj	491776e83e597471
-2	310	7569228347330337	CMakeFiles/main.dir/src/test/main.cpp.obj	1582bc3f558cfd39
-319	581	7569228350498925	E:/Code/clion_code/practice/.runtime/main.exe	8b9590c180a623d4
+2	515	7569306274847188	CMakeFiles/main.cpp.dir/src/test/main.cpp.obj	491776e83e597471
+4	422	7569306645695147	E:/Code/clion_code/practice/.runtime/main.cpp.exe	4f411c758f2ac64e
+3	310	7569306330763875	CMakeFiles/test.cpp.dir/src/test/test.cpp.obj	9fa0254c978c860c
+3	422	7569307464830500	CMakeFiles/test.dir/src/test/test.cpp.obj	9b6c3dfd52bc369d
+431	726	7569307469121107	E:/Code/clion_code/practice/.runtime/test.exe	6be6b90520fde9e6
+2	324	7569307561812243	CMakeFiles/main.dir/src/test/main.cpp.obj	1582bc3f558cfd39
+325	588	7569307565042633	E:/Code/clion_code/practice/.runtime/main.exe	8b9590c180a623d4
+4	286	7569307635857445	E:/Code/clion_code/practice/.runtime/main.exe	8b9590c180a623d4
+6	385	7569307761086687	E:/Code/clion_code/practice/.runtime/test.exe	6be6b90520fde9e6

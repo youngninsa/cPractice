@@ -76,6 +76,41 @@ build E$:/Code/clion_code/practice/.runtime/main.exe: CXX_EXECUTABLE_LINKER__mai
   TARGET_PDB = main.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || .
+
+build CMakeFiles/test.dir/src/test/test.cpp.obj: CXX_COMPILER__test_unscanned_Debug E$:/Code/clion_code/practice/src/test/test.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles\test.dir\src\test\test.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.dir\src\test
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable E:\Code\clion_code\practice\.runtime\test.exe
+
+build E$:/Code/clion_code/practice/.runtime/test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/src/test/test.cpp.obj
+  FLAGS = -g
+  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\test.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libtest.dll.a
+  TARGET_PDB = test.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target test1
 
 
@@ -210,6 +245,10 @@ build main: phony E$:/Code/clion_code/practice/.runtime/main.exe
 
 build main.exe: phony E$:/Code/clion_code/practice/.runtime/main.exe
 
+build test: phony E$:/Code/clion_code/practice/.runtime/test.exe
+
+build test.exe: phony E$:/Code/clion_code/practice/.runtime/test.exe
+
 build test1: phony E$:/Code/clion_code/practice/.runtime/test1.exe
 
 build test1.exe: phony E$:/Code/clion_code/practice/.runtime/test1.exe
@@ -230,7 +269,7 @@ build test3.exe: phony E$:/Code/clion_code/practice/.runtime/test3.exe
 #############################################
 # Folder: E:/Code/clion_code/practice/cmake-build-debug
 
-build all: phony E$:/Code/clion_code/practice/.runtime/main.exe E$:/Code/clion_code/practice/.runtime/test1.exe E$:/Code/clion_code/practice/.runtime/test2.exe E$:/Code/clion_code/practice/.runtime/test3.exe
+build all: phony E$:/Code/clion_code/practice/.runtime/main.exe E$:/Code/clion_code/practice/.runtime/test.exe E$:/Code/clion_code/practice/.runtime/test1.exe E$:/Code/clion_code/practice/.runtime/test2.exe E$:/Code/clion_code/practice/.runtime/test3.exe
 
 # =============================================================================
 # Built-in targets
