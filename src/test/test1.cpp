@@ -5,7 +5,7 @@ typedef struct BiTNode
     char data;
     struct BiTNode *lchild,*rchild;
 }BiTNode,*BiTree;
-void CreateBiTree(BiTree &T,char S[],int &i)        ////先序建立二叉树
+void CreateBiTree(BiTree &T,char S[],int &i)        //先序建立二叉树
 {
     if(S[i] == '0')
         T = NULL;
