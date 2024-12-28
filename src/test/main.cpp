@@ -1,6 +1,15 @@
 #include <iostream>
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+using namespace std;
+
+int main()
+{
+    int a = 10;
+    int b = 20;
+//    int* const p = &a;
+    const int* p = &a;
+    p = &b;
+    cout << "*p = " << *p << endl;
+
     return 0;
 }
