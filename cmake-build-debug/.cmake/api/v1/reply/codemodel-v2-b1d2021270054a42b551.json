@@ -19,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -38,7 +39,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -70,6 +72,13 @@
 					"id" : "p2084::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-p2084-Debug-30054885547b8664aab4.json",
 					"name" : "p2084",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p5743::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p5743-Debug-2ccac0830fc1f949564b.json",
+					"name" : "p5743",
 					"projectIndex" : 0
 				},
 				{

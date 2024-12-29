@@ -76,6 +76,41 @@ build E$:/Code/clion_code/practice/.runtime/p2084.exe: CXX_EXECUTABLE_LINKER__p2
   TARGET_PDB = p2084.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target p5743
+
+
+#############################################
+# Order-only phony target for p5743
+
+build cmake_object_order_depends_target_p5743: phony || .
+
+build CMakeFiles/p5743.dir/src/luogu/p5743.cpp.obj: CXX_COMPILER__p5743_unscanned_Debug E$:/Code/clion_code/practice/src/luogu/p5743.cpp || cmake_object_order_depends_target_p5743
+  DEP_FILE = CMakeFiles\p5743.dir\src\luogu\p5743.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\p5743.dir
+  OBJECT_FILE_DIR = CMakeFiles\p5743.dir\src\luogu
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p5743
+
+
+#############################################
+# Link the executable E:\Code\clion_code\practice\.runtime\p5743.exe
+
+build E$:/Code/clion_code/practice/.runtime/p5743.exe: CXX_EXECUTABLE_LINKER__p5743_Debug CMakeFiles/p5743.dir/src/luogu/p5743.cpp.obj
+  FLAGS = -g
+  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\p5743.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\p5743.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libp5743.dll.a
+  TARGET_PDB = p5743.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target compare_tree
 
 
@@ -257,6 +292,10 @@ build p2084: phony E$:/Code/clion_code/practice/.runtime/p2084.exe
 
 build p2084.exe: phony E$:/Code/clion_code/practice/.runtime/p2084.exe
 
+build p5743: phony E$:/Code/clion_code/practice/.runtime/p5743.exe
+
+build p5743.exe: phony E$:/Code/clion_code/practice/.runtime/p5743.exe
+
 build pointCount_tree: phony E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe
 
 build pointCount_tree.exe: phony E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe
@@ -269,7 +308,7 @@ build pointCount_tree.exe: phony E$:/Code/clion_code/practice/.runtime/pointCoun
 #############################################
 # Folder: E:/Code/clion_code/practice/cmake-build-debug
 
-build all: phony E$:/Code/clion_code/practice/.runtime/p2084.exe E$:/Code/clion_code/practice/.runtime/compare_tree.exe E$:/Code/clion_code/practice/.runtime/lanqiao.exe E$:/Code/clion_code/practice/.runtime/main.exe E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe
+build all: phony E$:/Code/clion_code/practice/.runtime/p2084.exe E$:/Code/clion_code/practice/.runtime/p5743.exe E$:/Code/clion_code/practice/.runtime/compare_tree.exe E$:/Code/clion_code/practice/.runtime/lanqiao.exe E$:/Code/clion_code/practice/.runtime/main.exe E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe
 
 # =============================================================================
 # Built-in targets

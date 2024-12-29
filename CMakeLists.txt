@@ -18,6 +18,6 @@ include_directories(${PROJECT_SOURCE_DIR} /src)
 file(GLOB_RECURSE files src/*.c src/*.cpp)
 foreach (file ${files}) # 遍历所有发现的文件
     get_filename_component(name ${file} NAME) # 获取文件名
-    string(REGEX REPLACE "\\.cpp$" "" new_name ${name})
+    string(REGEX REPLACE "\\.cpp$" "" new_name ${name}) # 删去文件名后缀
     add_executable(${new_name} ${file}) # 添加可执行文件
 endforeach () # 遍历结束
