@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "E:/Code/clion_code/practice/.runtime/test2.exe"
+			"path" : "E:/Code/clion_code/practice/.runtime/p2084.exe"
 		},
 		{
-			"path" : "E:/Code/clion_code/practice/.runtime/test2.pdb"
+			"path" : "E:/Code/clion_code/practice/.runtime/p2084.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -74,7 +74,7 @@
 			]
 		}
 	],
-	"id" : "test2::@6890427a1f51a3e7e1df",
+	"id" : "p2084::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -94,8 +94,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "test2",
-	"nameOnDisk" : "test2.exe",
+	"name" : "p2084",
+	"nameOnDisk" : "p2084.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -116,7 +116,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/test/test2.cpp",
+			"path" : "src/luogu/p2084.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

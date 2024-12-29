@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "E:/Code/clion_code/practice/.runtime/test3.exe"
+			"path" : "E:/Code/clion_code/practice/.runtime/pointCount_tree.exe"
 		},
 		{
-			"path" : "E:/Code/clion_code/practice/.runtime/test3.pdb"
+			"path" : "E:/Code/clion_code/practice/.runtime/pointCount_tree.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -74,7 +74,7 @@
 			]
 		}
 	],
-	"id" : "test3::@6890427a1f51a3e7e1df",
+	"id" : "pointCount_tree::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -94,8 +94,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "test3",
-	"nameOnDisk" : "test3.exe",
+	"name" : "pointCount_tree",
+	"nameOnDisk" : "pointCount_tree.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -116,7 +116,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/test/test3.cpp",
+			"path" : "src/test/pointCount_tree.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

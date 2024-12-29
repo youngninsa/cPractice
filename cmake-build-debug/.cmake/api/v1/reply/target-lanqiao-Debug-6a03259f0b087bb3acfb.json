@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "E:/Code/clion_code/practice/.runtime/test1.exe"
+			"path" : "E:/Code/clion_code/practice/.runtime/lanqiao.exe"
 		},
 		{
-			"path" : "E:/Code/clion_code/practice/.runtime/test1.pdb"
+			"path" : "E:/Code/clion_code/practice/.runtime/lanqiao.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -74,7 +74,7 @@
 			]
 		}
 	],
-	"id" : "test1::@6890427a1f51a3e7e1df",
+	"id" : "lanqiao::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -94,8 +94,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "test1",
-	"nameOnDisk" : "test1.exe",
+	"name" : "lanqiao",
+	"nameOnDisk" : "lanqiao.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -116,7 +116,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/test/test1.cpp",
+			"path" : "src/test/lanqiao.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
