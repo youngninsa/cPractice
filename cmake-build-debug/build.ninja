@@ -111,6 +111,41 @@ build E$:/Code/clion_code/practice/.runtime/p5743.exe: CXX_EXECUTABLE_LINKER__p5
   TARGET_PDB = p5743.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target STL
+
+
+#############################################
+# Order-only phony target for STL
+
+build cmake_object_order_depends_target_STL: phony || .
+
+build CMakeFiles/STL.dir/src/test/STL.cpp.obj: CXX_COMPILER__STL_unscanned_Debug E$:/Code/clion_code/practice/src/test/STL.cpp || cmake_object_order_depends_target_STL
+  DEP_FILE = CMakeFiles\STL.dir\src\test\STL.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\STL.dir
+  OBJECT_FILE_DIR = CMakeFiles\STL.dir\src\test
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target STL
+
+
+#############################################
+# Link the executable E:\Code\clion_code\practice\.runtime\STL.exe
+
+build E$:/Code/clion_code/practice/.runtime/STL.exe: CXX_EXECUTABLE_LINKER__STL_Debug CMakeFiles/STL.dir/src/test/STL.cpp.obj
+  FLAGS = -g
+  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\STL.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\STL.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libSTL.dll.a
+  TARGET_PDB = STL.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target compare_tree
 
 
@@ -146,39 +181,39 @@ build E$:/Code/clion_code/practice/.runtime/compare_tree.exe: CXX_EXECUTABLE_LIN
   TARGET_PDB = compare_tree.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target lanqiao
+# Object build statements for EXECUTABLE target infile
 
 
 #############################################
-# Order-only phony target for lanqiao
+# Order-only phony target for infile
 
-build cmake_object_order_depends_target_lanqiao: phony || .
+build cmake_object_order_depends_target_infile: phony || .
 
-build CMakeFiles/lanqiao.dir/src/test/lanqiao.cpp.obj: CXX_COMPILER__lanqiao_unscanned_Debug E$:/Code/clion_code/practice/src/test/lanqiao.cpp || cmake_object_order_depends_target_lanqiao
-  DEP_FILE = CMakeFiles\lanqiao.dir\src\test\lanqiao.cpp.obj.d
+build CMakeFiles/infile.dir/src/test/infile.cpp.obj: CXX_COMPILER__infile_unscanned_Debug E$:/Code/clion_code/practice/src/test/infile.cpp || cmake_object_order_depends_target_infile
+  DEP_FILE = CMakeFiles\infile.dir\src\test\infile.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -IE:/Code/clion_code/practice -I/src
-  OBJECT_DIR = CMakeFiles\lanqiao.dir
-  OBJECT_FILE_DIR = CMakeFiles\lanqiao.dir\src\test
+  OBJECT_DIR = CMakeFiles\infile.dir
+  OBJECT_FILE_DIR = CMakeFiles\infile.dir\src\test
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target lanqiao
+# Link build statements for EXECUTABLE target infile
 
 
 #############################################
-# Link the executable E:\Code\clion_code\practice\.runtime\lanqiao.exe
+# Link the executable E:\Code\clion_code\practice\.runtime\infile.exe
 
-build E$:/Code/clion_code/practice/.runtime/lanqiao.exe: CXX_EXECUTABLE_LINKER__lanqiao_Debug CMakeFiles/lanqiao.dir/src/test/lanqiao.cpp.obj
+build E$:/Code/clion_code/practice/.runtime/infile.exe: CXX_EXECUTABLE_LINKER__infile_Debug CMakeFiles/infile.dir/src/test/infile.cpp.obj
   FLAGS = -g
   LINK_FLAGS = -static-libgcc -static-libstdc++
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\lanqiao.dir
+  OBJECT_DIR = CMakeFiles\infile.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = E:\Code\clion_code\practice\.runtime\lanqiao.exe
-  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\liblanqiao.dll.a
-  TARGET_PDB = lanqiao.exe.dbg
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\infile.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libinfile.dll.a
+  TARGET_PDB = infile.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target main
@@ -216,6 +251,41 @@ build E$:/Code/clion_code/practice/.runtime/main.exe: CXX_EXECUTABLE_LINKER__mai
   TARGET_PDB = main.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target outfile
+
+
+#############################################
+# Order-only phony target for outfile
+
+build cmake_object_order_depends_target_outfile: phony || .
+
+build CMakeFiles/outfile.dir/src/test/outfile.cpp.obj: CXX_COMPILER__outfile_unscanned_Debug E$:/Code/clion_code/practice/src/test/outfile.cpp || cmake_object_order_depends_target_outfile
+  DEP_FILE = CMakeFiles\outfile.dir\src\test\outfile.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\outfile.dir
+  OBJECT_FILE_DIR = CMakeFiles\outfile.dir\src\test
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target outfile
+
+
+#############################################
+# Link the executable E:\Code\clion_code\practice\.runtime\outfile.exe
+
+build E$:/Code/clion_code/practice/.runtime/outfile.exe: CXX_EXECUTABLE_LINKER__outfile_Debug CMakeFiles/outfile.dir/src/test/outfile.cpp.obj
+  FLAGS = -g
+  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\outfile.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\outfile.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\liboutfile.dll.a
+  TARGET_PDB = outfile.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target pointCount_tree
 
 
@@ -250,6 +320,41 @@ build E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe: CXX_EXECUTABLE_
   TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libpointCount_tree.dll.a
   TARGET_PDB = pointCount_tree.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target polynomial_calculation
+
+
+#############################################
+# Order-only phony target for polynomial_calculation
+
+build cmake_object_order_depends_target_polynomial_calculation: phony || .
+
+build CMakeFiles/polynomial_calculation.dir/src/test/polynomial_calculation.cpp.obj: CXX_COMPILER__polynomial_calculation_unscanned_Debug E$:/Code/clion_code/practice/src/test/polynomial_calculation.cpp || cmake_object_order_depends_target_polynomial_calculation
+  DEP_FILE = CMakeFiles\polynomial_calculation.dir\src\test\polynomial_calculation.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\polynomial_calculation.dir
+  OBJECT_FILE_DIR = CMakeFiles\polynomial_calculation.dir\src\test
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target polynomial_calculation
+
+
+#############################################
+# Link the executable E:\Code\clion_code\practice\.runtime\polynomial_calculation.exe
+
+build E$:/Code/clion_code/practice/.runtime/polynomial_calculation.exe: CXX_EXECUTABLE_LINKER__polynomial_calculation_Debug CMakeFiles/polynomial_calculation.dir/src/test/polynomial_calculation.cpp.obj
+  FLAGS = -g
+  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\polynomial_calculation.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\polynomial_calculation.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libpolynomial_calculation.dll.a
+  TARGET_PDB = polynomial_calculation.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -276,17 +381,25 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build STL: phony E$:/Code/clion_code/practice/.runtime/STL.exe
+
+build STL.exe: phony E$:/Code/clion_code/practice/.runtime/STL.exe
+
 build compare_tree: phony E$:/Code/clion_code/practice/.runtime/compare_tree.exe
 
 build compare_tree.exe: phony E$:/Code/clion_code/practice/.runtime/compare_tree.exe
 
-build lanqiao: phony E$:/Code/clion_code/practice/.runtime/lanqiao.exe
+build infile: phony E$:/Code/clion_code/practice/.runtime/infile.exe
 
-build lanqiao.exe: phony E$:/Code/clion_code/practice/.runtime/lanqiao.exe
+build infile.exe: phony E$:/Code/clion_code/practice/.runtime/infile.exe
 
 build main: phony E$:/Code/clion_code/practice/.runtime/main.exe
 
 build main.exe: phony E$:/Code/clion_code/practice/.runtime/main.exe
+
+build outfile: phony E$:/Code/clion_code/practice/.runtime/outfile.exe
+
+build outfile.exe: phony E$:/Code/clion_code/practice/.runtime/outfile.exe
 
 build p2084: phony E$:/Code/clion_code/practice/.runtime/p2084.exe
 
@@ -300,6 +413,10 @@ build pointCount_tree: phony E$:/Code/clion_code/practice/.runtime/pointCount_tr
 
 build pointCount_tree.exe: phony E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe
 
+build polynomial_calculation: phony E$:/Code/clion_code/practice/.runtime/polynomial_calculation.exe
+
+build polynomial_calculation.exe: phony E$:/Code/clion_code/practice/.runtime/polynomial_calculation.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -308,7 +425,7 @@ build pointCount_tree.exe: phony E$:/Code/clion_code/practice/.runtime/pointCoun
 #############################################
 # Folder: E:/Code/clion_code/practice/cmake-build-debug
 
-build all: phony E$:/Code/clion_code/practice/.runtime/p2084.exe E$:/Code/clion_code/practice/.runtime/p5743.exe E$:/Code/clion_code/practice/.runtime/compare_tree.exe E$:/Code/clion_code/practice/.runtime/lanqiao.exe E$:/Code/clion_code/practice/.runtime/main.exe E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe
+build all: phony E$:/Code/clion_code/practice/.runtime/p2084.exe E$:/Code/clion_code/practice/.runtime/p5743.exe E$:/Code/clion_code/practice/.runtime/STL.exe E$:/Code/clion_code/practice/.runtime/compare_tree.exe E$:/Code/clion_code/practice/.runtime/infile.exe E$:/Code/clion_code/practice/.runtime/main.exe E$:/Code/clion_code/practice/.runtime/outfile.exe E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe E$:/Code/clion_code/practice/.runtime/polynomial_calculation.exe
 
 # =============================================================================
 # Built-in targets
