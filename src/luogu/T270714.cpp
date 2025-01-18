@@ -44,6 +44,7 @@ ll distance(ll x,ll y,ll a,ll b)//计算距离
 {
     return (x-a)*(x-a)+(y-b)*(y-b);
 }
+
 ll calculate(const ll *hash,ll x,ll y) //计算最大距离
 {
     ll r=0,c=0,s=0;
