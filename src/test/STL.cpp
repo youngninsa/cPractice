@@ -10,14 +10,26 @@ void print(int n) {
 
 int main()
 {
-    vector<int> v;
+    vector<int> vec,v;
 
-    v.push_back(10);
-    v.push_back(20);
+    vec.push_back(10);
+    vec.push_back(20);
     v.push_back(30);
     v.push_back(40);
 
-    for_each(v.begin(),v.end(), print);
 
+    //for_each(vec.begin(),vec.end(), print);
+    for(int i = 0;i < 100000;i++)
+        vec.push_back(i);
+    for(int i =0 ;i < 3;i++)
+        v.push_back(i);
+
+    cout << vec.capacity() << endl;
+    cout << v.capacity() << endl;
+
+    vector<int> (v).swap(vec);
+
+    cout << vec.capacity() << endl;
+    cout << v.capacity() << endl;
     return 0;
 }
