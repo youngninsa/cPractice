@@ -26,6 +26,7 @@ int main()
     cout << sum;
     return 0;
 }
+
 ll getv(const ll &day)
 {
     if(day < 3)
