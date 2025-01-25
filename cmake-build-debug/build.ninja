@@ -41,6 +41,41 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = E$:/Code/clion_code/practice/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target T207707
+
+
+#############################################
+# Order-only phony target for T207707
+
+build cmake_object_order_depends_target_T207707: phony || .
+
+build CMakeFiles/T207707.dir/src/luogu/T207707.cpp.obj: CXX_COMPILER__T207707_unscanned_Debug E$:/Code/clion_code/practice/src/luogu/T207707.cpp || cmake_object_order_depends_target_T207707
+  DEP_FILE = CMakeFiles\T207707.dir\src\luogu\T207707.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\T207707.dir
+  OBJECT_FILE_DIR = CMakeFiles\T207707.dir\src\luogu
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T207707
+
+
+#############################################
+# Link the executable E:\Code\clion_code\practice\.runtime\T207707.exe
+
+build E$:/Code/clion_code/practice/.runtime/T207707.exe: CXX_EXECUTABLE_LINKER__T207707_Debug CMakeFiles/T207707.dir/src/luogu/T207707.cpp.obj
+  FLAGS = -g
+  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\T207707.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\T207707.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libT207707.dll.a
+  TARGET_PDB = T207707.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target T270713
 
 
@@ -109,6 +144,76 @@ build E$:/Code/clion_code/practice/.runtime/T270714.exe: CXX_EXECUTABLE_LINKER__
   TARGET_FILE = E:\Code\clion_code\practice\.runtime\T270714.exe
   TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libT270714.dll.a
   TARGET_PDB = T270714.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target p1003
+
+
+#############################################
+# Order-only phony target for p1003
+
+build cmake_object_order_depends_target_p1003: phony || .
+
+build CMakeFiles/p1003.dir/src/luogu/p1003.cpp.obj: CXX_COMPILER__p1003_unscanned_Debug E$:/Code/clion_code/practice/src/luogu/p1003.cpp || cmake_object_order_depends_target_p1003
+  DEP_FILE = CMakeFiles\p1003.dir\src\luogu\p1003.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\p1003.dir
+  OBJECT_FILE_DIR = CMakeFiles\p1003.dir\src\luogu
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p1003
+
+
+#############################################
+# Link the executable E:\Code\clion_code\practice\.runtime\p1003.exe
+
+build E$:/Code/clion_code/practice/.runtime/p1003.exe: CXX_EXECUTABLE_LINKER__p1003_Debug CMakeFiles/p1003.dir/src/luogu/p1003.cpp.obj
+  FLAGS = -g
+  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\p1003.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\p1003.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libp1003.dll.a
+  TARGET_PDB = p1003.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target p1055
+
+
+#############################################
+# Order-only phony target for p1055
+
+build cmake_object_order_depends_target_p1055: phony || .
+
+build CMakeFiles/p1055.dir/src/luogu/p1055.cpp.obj: CXX_COMPILER__p1055_unscanned_Debug E$:/Code/clion_code/practice/src/luogu/p1055.cpp || cmake_object_order_depends_target_p1055
+  DEP_FILE = CMakeFiles\p1055.dir\src\luogu\p1055.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\p1055.dir
+  OBJECT_FILE_DIR = CMakeFiles\p1055.dir\src\luogu
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p1055
+
+
+#############################################
+# Link the executable E:\Code\clion_code\practice\.runtime\p1055.exe
+
+build E$:/Code/clion_code/practice/.runtime/p1055.exe: CXX_EXECUTABLE_LINKER__p1055_Debug CMakeFiles/p1055.dir/src/luogu/p1055.cpp.obj
+  FLAGS = -g
+  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\p1055.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\p1055.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libp1055.dll.a
+  TARGET_PDB = p1055.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target p2084
@@ -455,6 +560,10 @@ build STL: phony E$:/Code/clion_code/practice/.runtime/STL.exe
 
 build STL.exe: phony E$:/Code/clion_code/practice/.runtime/STL.exe
 
+build T207707: phony E$:/Code/clion_code/practice/.runtime/T207707.exe
+
+build T207707.exe: phony E$:/Code/clion_code/practice/.runtime/T207707.exe
+
 build T270713: phony E$:/Code/clion_code/practice/.runtime/T270713.exe
 
 build T270713.exe: phony E$:/Code/clion_code/practice/.runtime/T270713.exe
@@ -478,6 +587,14 @@ build main.exe: phony E$:/Code/clion_code/practice/.runtime/main.exe
 build outfile: phony E$:/Code/clion_code/practice/.runtime/outfile.exe
 
 build outfile.exe: phony E$:/Code/clion_code/practice/.runtime/outfile.exe
+
+build p1003: phony E$:/Code/clion_code/practice/.runtime/p1003.exe
+
+build p1003.exe: phony E$:/Code/clion_code/practice/.runtime/p1003.exe
+
+build p1055: phony E$:/Code/clion_code/practice/.runtime/p1055.exe
+
+build p1055.exe: phony E$:/Code/clion_code/practice/.runtime/p1055.exe
 
 build p2084: phony E$:/Code/clion_code/practice/.runtime/p2084.exe
 
@@ -503,7 +620,7 @@ build polynomial_calculation.exe: phony E$:/Code/clion_code/practice/.runtime/po
 #############################################
 # Folder: E:/Code/clion_code/practice/cmake-build-debug
 
-build all: phony E$:/Code/clion_code/practice/.runtime/T270713.exe E$:/Code/clion_code/practice/.runtime/T270714.exe E$:/Code/clion_code/practice/.runtime/p2084.exe E$:/Code/clion_code/practice/.runtime/p5743.exe E$:/Code/clion_code/practice/.runtime/STL.exe E$:/Code/clion_code/practice/.runtime/compare_tree.exe E$:/Code/clion_code/practice/.runtime/infile.exe E$:/Code/clion_code/practice/.runtime/main.exe E$:/Code/clion_code/practice/.runtime/outfile.exe E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe E$:/Code/clion_code/practice/.runtime/polynomial_calculation.exe
+build all: phony E$:/Code/clion_code/practice/.runtime/T207707.exe E$:/Code/clion_code/practice/.runtime/T270713.exe E$:/Code/clion_code/practice/.runtime/T270714.exe E$:/Code/clion_code/practice/.runtime/p1003.exe E$:/Code/clion_code/practice/.runtime/p1055.exe E$:/Code/clion_code/practice/.runtime/p2084.exe E$:/Code/clion_code/practice/.runtime/p5743.exe E$:/Code/clion_code/practice/.runtime/STL.exe E$:/Code/clion_code/practice/.runtime/compare_tree.exe E$:/Code/clion_code/practice/.runtime/infile.exe E$:/Code/clion_code/practice/.runtime/main.exe E$:/Code/clion_code/practice/.runtime/outfile.exe E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe E$:/Code/clion_code/practice/.runtime/polynomial_calculation.exe
 
 # =============================================================================
 # Built-in targets
