@@ -251,6 +251,41 @@ build E$:/Code/clion_code/practice/.runtime/p1063.exe: CXX_EXECUTABLE_LINKER__p1
   TARGET_PDB = p1063.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target p1093
+
+
+#############################################
+# Order-only phony target for p1093
+
+build cmake_object_order_depends_target_p1093: phony || .
+
+build CMakeFiles/p1093.dir/src/luogu/p1093.cpp.obj: CXX_COMPILER__p1093_unscanned_Debug E$:/Code/clion_code/practice/src/luogu/p1093.cpp || cmake_object_order_depends_target_p1093
+  DEP_FILE = CMakeFiles\p1093.dir\src\luogu\p1093.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\p1093.dir
+  OBJECT_FILE_DIR = CMakeFiles\p1093.dir\src\luogu
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p1093
+
+
+#############################################
+# Link the executable E:\Code\clion_code\practice\.runtime\p1093.exe
+
+build E$:/Code/clion_code/practice/.runtime/p1093.exe: CXX_EXECUTABLE_LINKER__p1093_Debug CMakeFiles/p1093.dir/src/luogu/p1093.cpp.obj
+  FLAGS = -g
+  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\p1093.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\p1093.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libp1093.dll.a
+  TARGET_PDB = p1093.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target p2084
 
 
@@ -635,6 +670,10 @@ build p1063: phony E$:/Code/clion_code/practice/.runtime/p1063.exe
 
 build p1063.exe: phony E$:/Code/clion_code/practice/.runtime/p1063.exe
 
+build p1093: phony E$:/Code/clion_code/practice/.runtime/p1093.exe
+
+build p1093.exe: phony E$:/Code/clion_code/practice/.runtime/p1093.exe
+
 build p2084: phony E$:/Code/clion_code/practice/.runtime/p2084.exe
 
 build p2084.exe: phony E$:/Code/clion_code/practice/.runtime/p2084.exe
@@ -659,7 +698,7 @@ build polynomial_calculation.exe: phony E$:/Code/clion_code/practice/.runtime/po
 #############################################
 # Folder: E:/Code/clion_code/practice/cmake-build-debug
 
-build all: phony E$:/Code/clion_code/practice/.runtime/T207707.exe E$:/Code/clion_code/practice/.runtime/T270713.exe E$:/Code/clion_code/practice/.runtime/T270714.exe E$:/Code/clion_code/practice/.runtime/p1003.exe E$:/Code/clion_code/practice/.runtime/p1055.exe E$:/Code/clion_code/practice/.runtime/p1063.exe E$:/Code/clion_code/practice/.runtime/p2084.exe E$:/Code/clion_code/practice/.runtime/p5743.exe E$:/Code/clion_code/practice/.runtime/STL.exe E$:/Code/clion_code/practice/.runtime/compare_tree.exe E$:/Code/clion_code/practice/.runtime/infile.exe E$:/Code/clion_code/practice/.runtime/main.exe E$:/Code/clion_code/practice/.runtime/outfile.exe E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe E$:/Code/clion_code/practice/.runtime/polynomial_calculation.exe
+build all: phony E$:/Code/clion_code/practice/.runtime/T207707.exe E$:/Code/clion_code/practice/.runtime/T270713.exe E$:/Code/clion_code/practice/.runtime/T270714.exe E$:/Code/clion_code/practice/.runtime/p1003.exe E$:/Code/clion_code/practice/.runtime/p1055.exe E$:/Code/clion_code/practice/.runtime/p1063.exe E$:/Code/clion_code/practice/.runtime/p1093.exe E$:/Code/clion_code/practice/.runtime/p2084.exe E$:/Code/clion_code/practice/.runtime/p5743.exe E$:/Code/clion_code/practice/.runtime/STL.exe E$:/Code/clion_code/practice/.runtime/compare_tree.exe E$:/Code/clion_code/practice/.runtime/infile.exe E$:/Code/clion_code/practice/.runtime/main.exe E$:/Code/clion_code/practice/.runtime/outfile.exe E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe E$:/Code/clion_code/practice/.runtime/polynomial_calculation.exe
 
 # =============================================================================
 # Built-in targets
