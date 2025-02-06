@@ -7,6 +7,7 @@ E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1059.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1062.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1063.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1093.dir
+E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1706.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p2084.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p5743.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/STL.dir
@@ -14,6 +15,7 @@ E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/compare_tree.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/fullArray.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/infile.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/main.dir
+E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/next_permutation.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/outfile.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/pointCount_tree.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/polynomial_calculation.dir
