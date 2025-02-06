@@ -1,0 +1,204 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "practice",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "STL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STL-Debug-9d865d9a8c00dc989fb3.json",
+					"name" : "STL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "T207707::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-T207707-Debug-69a56ee86b9988c994c1.json",
+					"name" : "T207707",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "T270713::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-T270713-Debug-8bb16ba180a105518a52.json",
+					"name" : "T270713",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "T270714::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-T270714-Debug-57e97a5e2b4638e4404a.json",
+					"name" : "T270714",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "compare_tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-compare_tree-Debug-f3025a37f46aea3b9b0c.json",
+					"name" : "compare_tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "infile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-infile-Debug-e6bb6ef568e1d6ffe834.json",
+					"name" : "infile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-a879ce73d15b8545130c.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "outfile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-outfile-Debug-b1f0e6197e99c86ccb3d.json",
+					"name" : "outfile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p1003::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p1003-Debug-e261f12f9ffa94102b18.json",
+					"name" : "p1003",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p1055::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p1055-Debug-de3f66fc8f0c1ef25c6e.json",
+					"name" : "p1055",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p1062::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p1062-Debug-8fb16fa271aba987a1d4.json",
+					"name" : "p1062",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p1063::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p1063-Debug-5f6779bc5e6455626ca7.json",
+					"name" : "p1063",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p1093::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p1093-Debug-c5586cb7c18713780859.json",
+					"name" : "p1093",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p2084::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p2084-Debug-30054885547b8664aab4.json",
+					"name" : "p2084",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p5743::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p5743-Debug-2ccac0830fc1f949564b.json",
+					"name" : "p5743",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointCount_tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointCount_tree-Debug-5c42e110f7566e515144.json",
+					"name" : "pointCount_tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "polynomial_calculation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-polynomial_calculation-Debug-f13995af27508d88af25.json",
+					"name" : "polynomial_calculation",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Code/clion_code/practice/cmake-build-debug",
+		"source" : "E:/Code/clion_code/practice"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

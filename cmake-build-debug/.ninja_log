@@ -1,4 +1,5 @@
 # ninja log v6
+5	1522	7604516564009409	CMakeFiles/p1093.dir/src/luogu/p1093.cpp.obj	9c34877bc1563753
 2	305	7554447122810068	CMakeFiles/main.dir/main.cpp.obj	7f376cc4829030dc
 4	524	7587420961282413	CMakeFiles/STL.dir/src/test/STL.cpp.obj	2de5eb3a9966c430
 2	293	7568896972044598	CMakeFiles/main.cpp.dir/src/main.cpp.obj	c319260f8f31984d
@@ -20,6 +21,7 @@
 549	1203	7582013344566255	E:/Code/clion_code/practice/.runtime/outfile.exe	f6cd9e8aaebec21b
 4	359	7582031100564445	CMakeFiles/infile.dir/src/test/infile.cpp.obj	7adda8e815e16562
 359	633	7582031104106773	E:/Code/clion_code/practice/.runtime/infile.exe	8f9570e016892ab5
+1487	1772	7604613099252779	E:/Code/clion_code/practice/.runtime/p1062.exe	b3925e2748c09bba
 3	355	7582087257677816	CMakeFiles/class.dir/src/test/class.cpp.obj	c50ef39d2b634caa
 525	818	7587420966491799	E:/Code/clion_code/practice/.runtime/STL.exe	a23e146f484bb978
 2	341	7585624966183215	CMakeFiles/class_active.dir/src/test/class_active.cpp.obj	bd62603fce4ff243
@@ -31,13 +33,11 @@
 5	1491	7592591036297462	CMakeFiles/p1055.dir/src/luogu/p1055.cpp.obj	4303b418a4b97ea8
 1491	1760	7592591051150351	E:/Code/clion_code/practice/.runtime/p1055.exe	7a11fa2abac5d52
 5	1436	7594922879593067	CMakeFiles/p1003.dir/src/luogu/p1003.cpp.obj	28f6a9a416011ca4
+1522	1845	7604516579180801	E:/Code/clion_code/practice/.runtime/p1093.exe	e771cbcc375505cb
 5	1518	7604407260651796	CMakeFiles/p1063.dir/src/luogu/p1063.cpp.obj	e000856127616fb5
 1519	1784	7604407275795730	E:/Code/clion_code/practice/.runtime/p1063.exe	acf99797349fb309
-2	1681	7604503314382806	CMakeFiles/p1093.dir/src/luogu/p1093.cpp.obj	9c34877bc1563753
-1681	1983	7604503331163269	E:/Code/clion_code/practice/.runtime/p1093.exe	e771cbcc375505cb
-5	1474	7604504278074968	CMakeFiles/p1093.dir/src/luogu/p1093.cpp.obj	9c34877bc1563753
-1474	1772	7604504292764581	E:/Code/clion_code/practice/.runtime/p1093.exe	e771cbcc375505cb
-4	1663	7604516134658100	CMakeFiles/p1093.dir/src/luogu/p1093.cpp.obj	9c34877bc1563753
-1663	1975	7604516151242470	E:/Code/clion_code/practice/.runtime/p1093.exe	e771cbcc375505cb
-5	1522	7604516564009409	CMakeFiles/p1093.dir/src/luogu/p1093.cpp.obj	9c34877bc1563753
-1522	1845	7604516579180801	E:/Code/clion_code/practice/.runtime/p1093.exe	e771cbcc375505cb
+5	1487	7604613084429030	CMakeFiles/p1062.dir/src/luogu/p1062.cpp.obj	528e89da39d4e911
+5	1468	7604613475017410	CMakeFiles/p1062.dir/src/luogu/p1062.cpp.obj	528e89da39d4e911
+1468	1735	7604613489650516	E:/Code/clion_code/practice/.runtime/p1062.exe	b3925e2748c09bba
+9	1488	7604614441846575	CMakeFiles/p1062.dir/src/luogu/p1062.cpp.obj	528e89da39d4e911
+1488	1764	7604614456640841	E:/Code/clion_code/practice/.runtime/p1062.exe	b3925e2748c09bba

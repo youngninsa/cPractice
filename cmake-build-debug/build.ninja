@@ -216,6 +216,41 @@ build E$:/Code/clion_code/practice/.runtime/p1055.exe: CXX_EXECUTABLE_LINKER__p1
   TARGET_PDB = p1055.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target p1062
+
+
+#############################################
+# Order-only phony target for p1062
+
+build cmake_object_order_depends_target_p1062: phony || .
+
+build CMakeFiles/p1062.dir/src/luogu/p1062.cpp.obj: CXX_COMPILER__p1062_unscanned_Debug E$:/Code/clion_code/practice/src/luogu/p1062.cpp || cmake_object_order_depends_target_p1062
+  DEP_FILE = CMakeFiles\p1062.dir\src\luogu\p1062.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\p1062.dir
+  OBJECT_FILE_DIR = CMakeFiles\p1062.dir\src\luogu
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p1062
+
+
+#############################################
+# Link the executable E:\Code\clion_code\practice\.runtime\p1062.exe
+
+build E$:/Code/clion_code/practice/.runtime/p1062.exe: CXX_EXECUTABLE_LINKER__p1062_Debug CMakeFiles/p1062.dir/src/luogu/p1062.cpp.obj
+  FLAGS = -g
+  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\p1062.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\p1062.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libp1062.dll.a
+  TARGET_PDB = p1062.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target p1063
 
 
@@ -666,6 +701,10 @@ build p1055: phony E$:/Code/clion_code/practice/.runtime/p1055.exe
 
 build p1055.exe: phony E$:/Code/clion_code/practice/.runtime/p1055.exe
 
+build p1062: phony E$:/Code/clion_code/practice/.runtime/p1062.exe
+
+build p1062.exe: phony E$:/Code/clion_code/practice/.runtime/p1062.exe
+
 build p1063: phony E$:/Code/clion_code/practice/.runtime/p1063.exe
 
 build p1063.exe: phony E$:/Code/clion_code/practice/.runtime/p1063.exe
@@ -698,7 +737,7 @@ build polynomial_calculation.exe: phony E$:/Code/clion_code/practice/.runtime/po
 #############################################
 # Folder: E:/Code/clion_code/practice/cmake-build-debug
 
-build all: phony E$:/Code/clion_code/practice/.runtime/T207707.exe E$:/Code/clion_code/practice/.runtime/T270713.exe E$:/Code/clion_code/practice/.runtime/T270714.exe E$:/Code/clion_code/practice/.runtime/p1003.exe E$:/Code/clion_code/practice/.runtime/p1055.exe E$:/Code/clion_code/practice/.runtime/p1063.exe E$:/Code/clion_code/practice/.runtime/p1093.exe E$:/Code/clion_code/practice/.runtime/p2084.exe E$:/Code/clion_code/practice/.runtime/p5743.exe E$:/Code/clion_code/practice/.runtime/STL.exe E$:/Code/clion_code/practice/.runtime/compare_tree.exe E$:/Code/clion_code/practice/.runtime/infile.exe E$:/Code/clion_code/practice/.runtime/main.exe E$:/Code/clion_code/practice/.runtime/outfile.exe E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe E$:/Code/clion_code/practice/.runtime/polynomial_calculation.exe
+build all: phony E$:/Code/clion_code/practice/.runtime/T207707.exe E$:/Code/clion_code/practice/.runtime/T270713.exe E$:/Code/clion_code/practice/.runtime/T270714.exe E$:/Code/clion_code/practice/.runtime/p1003.exe E$:/Code/clion_code/practice/.runtime/p1055.exe E$:/Code/clion_code/practice/.runtime/p1062.exe E$:/Code/clion_code/practice/.runtime/p1063.exe E$:/Code/clion_code/practice/.runtime/p1093.exe E$:/Code/clion_code/practice/.runtime/p2084.exe E$:/Code/clion_code/practice/.runtime/p5743.exe E$:/Code/clion_code/practice/.runtime/STL.exe E$:/Code/clion_code/practice/.runtime/compare_tree.exe E$:/Code/clion_code/practice/.runtime/infile.exe E$:/Code/clion_code/practice/.runtime/main.exe E$:/Code/clion_code/practice/.runtime/outfile.exe E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe E$:/Code/clion_code/practice/.runtime/polynomial_calculation.exe
 
 # =============================================================================
 # Built-in targets
