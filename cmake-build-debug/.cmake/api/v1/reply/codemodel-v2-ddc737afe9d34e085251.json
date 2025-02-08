@@ -35,7 +35,8 @@
 						17,
 						18,
 						19,
-						20
+						20,
+						21
 					]
 				}
 			],
@@ -70,7 +71,8 @@
 						17,
 						18,
 						19,
-						20
+						20,
+						21
 					]
 				}
 			],
@@ -102,6 +104,13 @@
 					"id" : "T270714::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-T270714-Debug-57e97a5e2b4638e4404a.json",
 					"name" : "T270714",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "combination::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-combination-Debug-da9ea4980463e421b4e1.json",
+					"name" : "combination",
 					"projectIndex" : 0
 				},
 				{
