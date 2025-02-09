@@ -461,6 +461,41 @@ build E$:/Code/clion_code/practice/.runtime/p2084.exe: CXX_EXECUTABLE_LINKER__p2
   TARGET_PDB = p2084.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target p3799
+
+
+#############################################
+# Order-only phony target for p3799
+
+build cmake_object_order_depends_target_p3799: phony || .
+
+build CMakeFiles/p3799.dir/src/luogu/p3799.cpp.obj: CXX_COMPILER__p3799_unscanned_Debug E$:/Code/clion_code/practice/src/luogu/p3799.cpp || cmake_object_order_depends_target_p3799
+  DEP_FILE = CMakeFiles\p3799.dir\src\luogu\p3799.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\p3799.dir
+  OBJECT_FILE_DIR = CMakeFiles\p3799.dir\src\luogu
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p3799
+
+
+#############################################
+# Link the executable E:\Code\clion_code\practice\.runtime\p3799.exe
+
+build E$:/Code/clion_code/practice/.runtime/p3799.exe: CXX_EXECUTABLE_LINKER__p3799_Debug CMakeFiles/p3799.dir/src/luogu/p3799.cpp.obj
+  FLAGS = -g
+  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\p3799.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\p3799.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libp3799.dll.a
+  TARGET_PDB = p3799.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target p5743
 
 
@@ -986,6 +1021,10 @@ build p2084: phony E$:/Code/clion_code/practice/.runtime/p2084.exe
 
 build p2084.exe: phony E$:/Code/clion_code/practice/.runtime/p2084.exe
 
+build p3799: phony E$:/Code/clion_code/practice/.runtime/p3799.exe
+
+build p3799.exe: phony E$:/Code/clion_code/practice/.runtime/p3799.exe
+
 build p5743: phony E$:/Code/clion_code/practice/.runtime/p5743.exe
 
 build p5743.exe: phony E$:/Code/clion_code/practice/.runtime/p5743.exe
@@ -1010,7 +1049,7 @@ build test.exe: phony E$:/Code/clion_code/practice/.runtime/test.exe
 #############################################
 # Folder: E:/Code/clion_code/practice/cmake-build-debug
 
-build all: phony E$:/Code/clion_code/practice/.runtime/T207707.exe E$:/Code/clion_code/practice/.runtime/T270713.exe E$:/Code/clion_code/practice/.runtime/T270714.exe E$:/Code/clion_code/practice/.runtime/p1003.exe E$:/Code/clion_code/practice/.runtime/p1036.exe E$:/Code/clion_code/practice/.runtime/p1055.exe E$:/Code/clion_code/practice/.runtime/p1059.exe E$:/Code/clion_code/practice/.runtime/p1062.exe E$:/Code/clion_code/practice/.runtime/p1063.exe E$:/Code/clion_code/practice/.runtime/p1093.exe E$:/Code/clion_code/practice/.runtime/p1706.exe E$:/Code/clion_code/practice/.runtime/p2084.exe E$:/Code/clion_code/practice/.runtime/p5743.exe E$:/Code/clion_code/practice/.runtime/STL.exe E$:/Code/clion_code/practice/.runtime/combination.exe E$:/Code/clion_code/practice/.runtime/compare_tree.exe E$:/Code/clion_code/practice/.runtime/fullArray.exe E$:/Code/clion_code/practice/.runtime/infile.exe E$:/Code/clion_code/practice/.runtime/main.exe E$:/Code/clion_code/practice/.runtime/next_permutation.exe E$:/Code/clion_code/practice/.runtime/outfile.exe E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe E$:/Code/clion_code/practice/.runtime/polynomial_calculation.exe E$:/Code/clion_code/practice/.runtime/test.exe
+build all: phony E$:/Code/clion_code/practice/.runtime/T207707.exe E$:/Code/clion_code/practice/.runtime/T270713.exe E$:/Code/clion_code/practice/.runtime/T270714.exe E$:/Code/clion_code/practice/.runtime/p1003.exe E$:/Code/clion_code/practice/.runtime/p1036.exe E$:/Code/clion_code/practice/.runtime/p1055.exe E$:/Code/clion_code/practice/.runtime/p1059.exe E$:/Code/clion_code/practice/.runtime/p1062.exe E$:/Code/clion_code/practice/.runtime/p1063.exe E$:/Code/clion_code/practice/.runtime/p1093.exe E$:/Code/clion_code/practice/.runtime/p1706.exe E$:/Code/clion_code/practice/.runtime/p2084.exe E$:/Code/clion_code/practice/.runtime/p3799.exe E$:/Code/clion_code/practice/.runtime/p5743.exe E$:/Code/clion_code/practice/.runtime/STL.exe E$:/Code/clion_code/practice/.runtime/combination.exe E$:/Code/clion_code/practice/.runtime/compare_tree.exe E$:/Code/clion_code/practice/.runtime/fullArray.exe E$:/Code/clion_code/practice/.runtime/infile.exe E$:/Code/clion_code/practice/.runtime/main.exe E$:/Code/clion_code/practice/.runtime/next_permutation.exe E$:/Code/clion_code/practice/.runtime/outfile.exe E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe E$:/Code/clion_code/practice/.runtime/polynomial_calculation.exe E$:/Code/clion_code/practice/.runtime/test.exe
 
 # =============================================================================
 # Built-in targets
