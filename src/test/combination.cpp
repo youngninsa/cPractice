@@ -3,29 +3,30 @@
 using namespace std;
 using ll = long long;
 
-int n,r,a[23]={0};
+int n,k,ans=0,a[23]={0},b[23]={0};
 
-void c(int bit)
+void c(int bit,int index)   //bit代表选第几位的数，index代表第bit位的数为a[index]
 {
-    if(bit > r)
+    if(bit > k)
     {
-        for(int i=1;i<=r;i++)
-        {
-            cout << setw(3) << a[i];
-        }
+        for(int i=1;i<=k;i++)
+            cout << b[i];
         cout << endl;
         return ;
     }
-    for(int i=a[bit-1]+1;i<=n;i++)
+    for(int i=index;i<=n;i++)
     {
-        a[bit]=i;
-        c(bit+1);
+        b[bit]=a[i];
+        c(bit+1,i+1);
     }
 }
 
 int main()
 {
-    cin >> n >> r;
-    c(1);
+    cin >> n >> k;
+    for(int i=1;i<=n;i++)
+        cin >> a[i];
+    c(1,1);
+    cout << ans;
     return 0;
 }
