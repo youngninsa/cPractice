@@ -3,7 +3,7 @@
 using namespace std;
 using ll = long long;
 
-int n,k,ans=0,a[23]={0},b[23]={0};
+int n,k,a[23]={0},b[23]={0};
 
 void c(int bit,int index)   //bit代表选第几位的数，index代表第bit位的数为a[index]
 {
@@ -27,6 +27,5 @@ int main()
     for(int i=1;i<=n;i++)
         cin >> a[i];
     c(1,1);
-    cout << ans;
     return 0;
 }
