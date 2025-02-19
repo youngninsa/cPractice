@@ -3,7 +3,7 @@
 using namespace std;
 using ll = long long;
 
-int n,ans=-1,temp[150],v[150][150];
+int n,ans=-1,temp[150];
 
 void arrsum()
 {
@@ -15,7 +15,7 @@ void arrsum()
     }
 }
 
-void matrixsum()
+void matrixsum(vector<vector<int>> v)
 {
     for(int i=1;i<=n;i++)
     {
@@ -32,10 +32,11 @@ void matrixsum()
 int main()
 {
     cin >> n;
+    vector v(n+2,vector<int> (n+2,0));
     for(int i=1;i<=n;i++)
         for (int j = 1; j <= n; j++)
             cin >> v[i][j];
-    matrixsum();
+    matrixsum(v);
     cout << ans;
     return 0;
 }
