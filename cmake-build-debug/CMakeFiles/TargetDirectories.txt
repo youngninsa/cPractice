@@ -14,6 +14,8 @@ E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1093.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1706.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1719.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p2084.dir
+E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p2367.dir
+E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p3397.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p3799.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p5743.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p8218.dir
