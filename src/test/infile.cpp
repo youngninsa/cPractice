@@ -1,22 +1,30 @@
-#include <iostream>
-#include <fstream>
-#include <string>
+#include <bits/stdc++.h>
 
 using namespace std;
-
+using ll = long long;
 int main()
 {
-    int t=0;
-    string line;
+    char ans,user;
+    ll pretm=0,tm=0,cnt=0,k=0;
     ifstream ifs;
-
     ifs.open("test.txt",ios::in);
-    if(!ifs.is_open())
+    bool flag=true;
+    while(ifs >> ans >> user >> tm)
     {
-        cout << "the file open is error" << endl;
-        return -1;
+        if(flag)
+        {
+            pretm = tm;
+            flag = false;
+        }
+        if(ans == user && tm-pretm <= 1000)
+            k++;
+        else
+            k=0;
+        pretm = tm;
+        cnt = max(cnt,k);
     }
-    while (ifs >> line){cout << line << endl; t++;}
+    cnt = max(cnt,k);
     ifs.close();
+    cout << cnt;
     return 0;
 }
