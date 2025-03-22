@@ -14,7 +14,7 @@ public:
         ma = a;
         mb = b;
     }
-};
+}c;
 
 person operator+(person A,person B)
 {
@@ -33,7 +33,8 @@ ostream &operator <<(ostream &out,person &a)
 
 int main()
 {
-    
+    person a(1,2),b(3,4);
+    c=a+b;
     cout << c;
     return 0;
 }
