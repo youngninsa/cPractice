@@ -3,7 +3,7 @@
 using namespace std;
 using ll = long long;
 
-char a[]={'A','B','C','D'};
+char a[23]={'1','2','3','4'};
 ll ans = 0;
 
 void f(int n)
@@ -31,7 +31,7 @@ void f(int n)
 
 int main()
 {
-    f(1);
+    f(0);
     cout  << ans << endl;
     return 0;
 }
