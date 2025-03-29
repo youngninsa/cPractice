@@ -1,63 +1,80 @@
 #include<bits/stdc++.h>
+
 using namespace std;
+using ll = long long;
+using ull = unsigned long long;
+ll llans=1;
+double dbans=1.0;
 
-int sum(const int *a,int step)
+double p(int n,double x)
 {
-    int ans=0;
-    for (int i=0; i < sizeof(a)/sizeof(int); i+=step)
-        ans += *(a+i);
+    if(n==0)
+        return 1;
+    if(n==1)
+        return x;
+    return (2*n-1)*x*p(n-1,x)/n - (n-1)*p(n-2,x)/n;
 }
 
-double sum(const double *a,int step)
+ll getpower(int x,int y)
 {
-    double ans=0;
-    for (int i=0; i < sizeof(a)/sizeof(int); i+=step)
-        ans += *(a+i);
+    if(y==0)
+        return 1;
+    if(y&1)
+        llans *= x;
+    getpower(x*x,y>>1);
+    return llans;
 }
 
-//void solve3()
-//{
-//#define c2(n) n*(n-1)/2
-//    cout << c2(5);
-//}
+double getpower(double x,int y)
+{
+    if(y==0)
+        return 1;
+    if(y&1)
+        dbans *= x;
+    getpower(x*x,y>>1);
+    return dbans;
+}
 
-//void solve4()
-//{
-//    srand(static_cast<unsigned long long> (time(nullptr)) * 38646925674 % 12345);
-//    int num = rand()%100+1;
-//    int guess;
-//    cout << num;
-//    /*while(guess != num)
-//    {
-//        cout << "please enter your guess number:";
-//        cin >> guess;
-//        if(guess > num)
-//            cout << "bigger" << endl;
-//        if(guess < num)
-//            cout << "smaller" << endl;
-//    }*/
-//    do
-//    {
-//        cout << "please enter your guess number:";
-//        cin >> guess;
-//        if(guess > num)
-//            cout << "bigger" << endl;
-//        if(guess < num)
-//            cout << "smaller" << endl;
-//    }while(guess != num);
-//    cout << "congratulations!";
-//}
+void solve4()
+{
+    int n;
+    double x;
+    cin >> n >> x;
+    cout << "p" << n << "(" << x << ")=" << p(n,x);
+}
 
 void solve5()
 {
-    int num1[]={1,2,3,4,5,6,7,8,9};
-    double num2[]={1.1,2.2,3.3,4.4,5.5,6.6,7.7,8.8,9.9};
-    cout << sum(num1,1) << endl;
-    cout << sum(num2,1);
+    int a,m;
+    double b;
+    cout << "请输入(int型)底数和(double型)底数:";
+    cin >> a >> b;
+    cout << "请输入(int型)指数:";
+    cin >> m;
+    cout << a << "的" << m << "次幂为:" << getpower(a, m) << endl;
+    cout <<  b << "的" << m << "次幂为:" << getpower(b,m);
+}
+
+void solve6()
+{
+    int n,sum=0,matrix[11][11]={0};
+    cout << "请输入矩阵的大小:";
+    cin >> n;
+    cout << "请输入矩阵元素:\n";
+    for(int i=0;i<n;i++)
+        for(int j=0;j<n;j++)
+            cin >> matrix[i][j];
+    for(int i=0;i<n;i++)
+        sum += matrix[i][i]+matrix[i][n-1-i];
+    if(n&1)
+        sum -= matrix[n/2][n/2];
+    cout << sum;
 }
 
 int main()
 {
-    solve5();
+//    solve4();
+//    solve5();
+    solve6();
     return 0;
 }

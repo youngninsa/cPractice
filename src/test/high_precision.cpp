@@ -3,7 +3,7 @@
 using namespace std;
 using ll = long long;
 
-string add(string str1,string str2)         //高精度加法
+[[noreturn]] string add(string str1,string str2)         //高精度加法
 {
     string str;
     int len1=str1.length();
