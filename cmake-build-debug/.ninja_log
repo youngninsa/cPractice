@@ -37,7 +37,7 @@
 6	1502	7605407630934970	CMakeFiles/sort.dir/src/test/sort.cpp.obj	e86757fd2943ee95
 1752	2032	7605592058770807	E:/Code/clion_code/practice/.runtime/STL.exe	a23e146f484bb978
 2	341	7585624966183215	CMakeFiles/class_active.dir/src/test/class_active.cpp.obj	bd62603fce4ff243
-9	1079	7673551580485624	build.ninja	8649f4a5d941e8f7
+9	1079	7685617785602753	build.ninja	8649f4a5d941e8f7
 3	385	7588304454571928	CMakeFiles/T270713.dir/src/luogu/T270713.cpp.obj	fe896694e71af45a
 386	757	7588304458409312	E:/Code/clion_code/practice/.runtime/T270713.exe	dc4bb2ba713641de
 12	2255	7588934013536080	CMakeFiles/T270714.dir/src/luogu/T270714.cpp.obj	affe78333aea74e7
@@ -78,6 +78,7 @@
 5	1472	7616787617270925	CMakeFiles/p2367.dir/src/luogu/p2367.cpp.obj	2fbed688cfe8f9a4
 1472	1739	7616787631938881	E:/Code/clion_code/practice/.runtime/p2367.exe	8045965f18e4bfef
 6	1513	7616871897327631	CMakeFiles/p3397.dir/src/luogu/p3397.cpp.obj	49121f87d1352008
+7	1533	7673552077041630	CMakeFiles/E_p12342.dir/src/lanqiao/round_16sB/E_p12342.cpp.obj	53559f3c0a6ce353
 1514	1786	7616871912407037	E:/Code/clion_code/practice/.runtime/p3397.exe	ead3237c6fd46647
 5	1466	7617502099603489	CMakeFiles/p1314.dir/src/luogu/p1314.cpp.obj	4d35c4631cf869d6
 1467	1761	7617502114223431	E:/Code/clion_code/practice/.runtime/p1314.exe	224f8ffef3c02a6
@@ -117,6 +118,7 @@
 1706	1970	7638263998815044	E:/Code/clion_code/practice/.runtime/p2678.exe	d7b0748d2e460e15
 17	404	7640569590174376	CMakeFiles/pointCount_tree.dir/src/test/pointCount_tree.cpp.obj	59337420fc2a2cce
 405	940	7640569594050097	E:/Code/clion_code/practice/.runtime/pointCount_tree.exe	35502c0e6452758d
+1533	1800	7673552092299849	E:/Code/clion_code/practice/.runtime/E_p12342.exe	d85cdce751aba6a8
 7	1883	7643167031018537	CMakeFiles/782.dir/src/lanqiao/782.cpp.obj	876a029da964d354
 1883	2177	7643167049787323	E:/Code/clion_code/practice/.runtime/782.exe	bb6eca6c38183a13
 1802	2085	7648509817654079	E:/Code/clion_code/practice/.runtime/20270.exe	49b250e7c0dbb35f
@@ -151,7 +153,5 @@
 1572	1841	7673541221440361	E:/Code/clion_code/practice/.runtime/D_12340.exe	5209024ca47a2a66
 4	1567	7673548377351263	CMakeFiles/H_p12344.dir/src/lanqiao/round_16sB/H_p12344.cpp.obj	97ae1980e576fa0e
 1567	1844	7673548392979802	E:/Code/clion_code/practice/.runtime/H_p12344.exe	2c1b8311336558f0
-5	1564	7673551622710976	CMakeFiles/E_p12342.dir/src/lanqiao/round_16sB/E_p12342.cpp.obj	53559f3c0a6ce353
-1564	1835	7673551638301170	E:/Code/clion_code/practice/.runtime/E_p12342.exe	d85cdce751aba6a8
-7	1533	7673552077041630	CMakeFiles/E_p12342.dir/src/lanqiao/round_16sB/E_p12342.cpp.obj	53559f3c0a6ce353
-1533	1800	7673552092299849	E:/Code/clion_code/practice/.runtime/E_p12342.exe	d85cdce751aba6a8
+11	3086	7685620071405034	CMakeFiles/F_p12343.dir/src/lanqiao/round_16sB/F_p12343.cpp.obj	17da2385d6c18166
+3086	4183	7685620102160820	E:/Code/clion_code/practice/.runtime/F_p12343.exe	47b192ae98dd6afd
