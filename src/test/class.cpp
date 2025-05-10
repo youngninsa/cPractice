@@ -3,16 +3,40 @@
 using namespace std;
 using ll = long long;
 
-class student{
-private:
-    int a={10},b={20};
+class cat;
+
+class dog
+{
 public:
-    student(){cout << "student()\n" << a << b;}
-    student(int a,int b){this->a=a;this->b=b;cout << "student(int,int)\n" << a << b;}
+    string name;
+    string color;
+
+    dog()=default;
+    dog(const char *name, const char *color) : name(name), color(color){}
+    void show(const cat &ca) const;
 };
+
+class cat
+{
+public:
+    string name;
+    string color;
+
+    cat()=default;
+    cat(const char *name, const char *color) : name(name), color(color){}
+    friend class dog;
+};
+
+void dog::show(const cat &ca) const
+{
+    cout << "name:" << this->name << endl << "color:" << this->color << endl;
+    cout << "its friend name:" << ca.name << endl << "its friend color:" << ca.color << endl;
+}
 
 int main()
 {
-    student stu = student();
+    cat c("mimi", "white");
+    dog d("wangwang","yellow");
+    d.show(c);
     return 0;
 }
