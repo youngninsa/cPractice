@@ -42,6 +42,7 @@ E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p12133.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p12134.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1216.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1226.dir
+E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1303.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1314.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1434.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1496.dir
@@ -60,6 +61,7 @@ E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p8218.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/CreatGraph.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/STL.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/class.dir
+E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/class1.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/combination.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/compare_tree.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/fastPow.dir

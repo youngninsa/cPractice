@@ -3,40 +3,60 @@
 using namespace std;
 using ll = long long;
 
-class cat;
-
-class dog
-{
+class Shape {
 public:
-    string name;
-    string color;
-
-    dog()=default;
-    dog(const char *name, const char *color) : name(name), color(color){}
-    void show(const cat &ca) const;
+    virtual double getArea() const = 0;
+    virtual double getLen() const = 0;
+    virtual ~Shape() = default;
 };
 
-class cat
-{
+class Rectangle : public Shape {
+private:
+    double width, height;
 public:
-    string name;
-    string color;
+    Rectangle(double w, double h) : width(w), height(h) {}
 
-    cat()=default;
-    cat(const char *name, const char *color) : name(name), color(color){}
-    friend class dog;
+    double getArea() const override {
+        return width * height;
+    }
+
+    double getLen() const override {
+        return 2 * (width + height);
+    }
 };
 
-void dog::show(const cat &ca) const
-{
-    cout << "name:" << this->name << endl << "color:" << this->color << endl;
-    cout << "its friend name:" << ca.name << endl << "its friend color:" << ca.color << endl;
-}
+class Circle : public Shape {
+private:
+    double radius;
+public:
+    explicit Circle(double r) : radius(r) {}
 
-int main()
-{
-    cat c("mimi", "white");
-    dog d("wangwang","yellow");
-    d.show(c);
+    double getArea() const override {
+        return M_PI * radius * radius;
+    }
+
+    double getLen() const override {
+        return 2 * M_PI * radius;
+    }
+};
+
+int main() {
+    Rectangle rect1(3.0, 4.0);
+    Rectangle rect2(5.5, 2.2);
+
+    cout << "矩形1 (3x4) — 面积: " << rect1.getArea()
+              << ", 周长: " << rect1.getLen() << '\n';
+    cout << "矩形2 (5.5x2.2) — 面积: " << rect2.getArea()
+              << ", 周长: " << rect2.getLen() << "\n\n";
+
+    Circle circ1(2.0);
+    Circle circ2(4.5);
+
+    cout << "圆1 (r=2) — 面积: " << circ1.getArea()
+              << ", 周长: " << circ1.getLen() << '\n';
+    cout << "圆2 (r=4.5) — 面积: " << circ2.getArea()
+              << ", 周长: " << circ2.getLen() << '\n';
+
     return 0;
 }
+

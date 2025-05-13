@@ -90,7 +90,9 @@
 						72,
 						73,
 						74,
-						75
+						75,
+						76,
+						77
 					]
 				}
 			],
@@ -180,7 +182,9 @@
 						72,
 						73,
 						74,
-						75
+						75,
+						76,
+						77
 					]
 				}
 			],
@@ -412,6 +416,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "class1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-class1-Debug-a2c7ecdbc54d23f42aeb.json",
+					"name" : "class1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "combination::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-combination-Debug-da9ea4980463e421b4e1.json",
 					"name" : "combination",
@@ -583,6 +594,13 @@
 					"id" : "p1226::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-p1226-Debug-e36d3493e5021e20ba43.json",
 					"name" : "p1226",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p1303::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p1303-Debug-8b12c1131490e92956b4.json",
+					"name" : "p1303",
 					"projectIndex" : 0
 				},
 				{
