@@ -92,7 +92,8 @@
 						74,
 						75,
 						76,
-						77
+						77,
+						78
 					]
 				}
 			],
@@ -184,7 +185,8 @@
 						74,
 						75,
 						76,
-						77
+						77,
+						78
 					]
 				}
 			],
@@ -370,6 +372,13 @@
 					"id" : "H_p12344::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-H_p12344-Debug-c601c6ad802874debaa3.json",
 					"name" : "H_p12344",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "P1028::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-P1028-Debug-92f1cbd00ac6f686a5fe.json",
+					"name" : "P1028",
 					"projectIndex" : 0
 				},
 				{
