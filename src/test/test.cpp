@@ -3,34 +3,18 @@
 using namespace std;
 using ll = long long;
 
-class counter
+template <typename T>
+auto sum(T* start,T* end,T step)
 {
-private:
-    int n;
-public:
-    int getV() const{return this->n;}
-    counter(int a){this->n=a;}
-    counter& operator ++(){++n;return *this;}
-    counter operator ++(int){counter t = *this;++n;return t;}
-    counter& operator --(){--n;return *this;}
-    counter operator --(int){counter t = *this;--n;return t;}
-};
-ostream& operator<<(ostream &out,counter t)
-{
-    out << t.getV();
-    return out;
+    ll sum=0;
+    for(T* i=start;i<end;i+=step)
+        sum += *i;
+    return sum;
 }
+
 int main()
 {
-    counter c(3);
-    cout << c << endl;
-    cout << c++ << endl;
-    cout << c << endl;
-    cout << ++c << endl << endl;
-
-    cout << c << endl;
-    cout << c-- << endl;
-    cout << c << endl;
-    cout << --c;
+    int a[10]={1,2,3,4,5,6,7,8,9,10};
+    cout << sum(a,a+5,2);
     return 0;
 }

@@ -93,7 +93,12 @@
 						75,
 						76,
 						77,
-						78
+						78,
+						79,
+						80,
+						81,
+						82,
+						83
 					]
 				}
 			],
@@ -186,7 +191,12 @@
 						75,
 						76,
 						77,
-						78
+						78,
+						79,
+						80,
+						81,
+						82,
+						83
 					]
 				}
 			],
@@ -313,6 +323,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-A-Debug-1412223ed54326cf503b.json",
+					"name" : "A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "A_17104::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-A_17104-Debug-9ce022bfa460a0f1fd02.json",
 					"name" : "A_17104",
@@ -323,6 +340,13 @@
 					"id" : "A_3492::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-A_3492-Debug-4c41546755f7eab3f0a8.json",
 					"name" : "A_3492",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "B::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-B-Debug-fcd425ddfae50e58bb85.json",
+					"name" : "B",
 					"projectIndex" : 0
 				},
 				{
@@ -565,6 +589,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "p1164::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p1164-Debug-b62224f71a0d2439ef6b.json",
+					"name" : "p1164",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "p12131::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-p12131-Debug-a12a2558688ac4d7aa31.json",
 					"name" : "p12131",
@@ -743,6 +774,20 @@
 					"id" : "test::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-test-Debug-e10735deb1b0e29df3aa.json",
 					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test2-Debug-e0b81006ef1ab30573eb.json",
+					"name" : "test2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test3-Debug-ad49a29ae980e8c8c908.json",
+					"name" : "test3",
 					"projectIndex" : 0
 				}
 			]

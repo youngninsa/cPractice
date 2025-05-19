@@ -1,3 +1,5 @@
+E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/A.dir
+E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/B.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/19714.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/19717.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/19733.dir
@@ -37,6 +39,7 @@ E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1062.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1063.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1093.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1115.dir
+E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p1164.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p12131.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p12132.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/p12133.dir
@@ -77,5 +80,7 @@ E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/pointCount_tree.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/polynomial_calculation.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/prime_num.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/test.dir
+E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/test2.dir
+E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/test3.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Code/clion_code/practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
