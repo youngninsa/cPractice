@@ -4,8 +4,8 @@ using namespace std;
 using ll = long long;
 
 int n,k,a[23]={0},b[23]={0};
-
-void c(int bit,int index)   //bit代表选第几位的数，index代表第bit位的数为a[index]
+/**  bit代表选第几位的数，index代表第bit位的数为a[index]  */
+void c(int bit,int index)
 {
     if(bit > k)
     {
