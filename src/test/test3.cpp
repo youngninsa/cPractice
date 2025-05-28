@@ -5,7 +5,7 @@ using ll = long long;
 
 bool cmp(int a,int b)
 {
-    return a<b;
+    return a>b;
 }
 
 template<typename T>
@@ -42,6 +42,7 @@ auto sum(T* start,T* end,T step)
 
 int main()
 {
+
     int a[10]={3,6,7,9,2,5,4,1,8,5};
     quick_sort(a,a+9,cmp);
     for(auto i:a)
