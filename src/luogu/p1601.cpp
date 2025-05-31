@@ -22,7 +22,7 @@ string add(string str1,string str2)
         sum = str1[i]-'0'+str2[i]-'0'+temp;
         temp = sum/10;
         sum %= 10;
-        str += char(sum+'0');
+        str = char(sum+'0') + str;
     }
     if(temp!=0)
         str = char(temp + '0') + str;
