@@ -2,9 +2,11 @@
 
 using namespace std;
 using ll = long long;
-const int N = 1e2+9;
+const int N = 2e5+9;
+//ifstream ifs,ofs;
 
-class TopoSort{
+class TopoSort
+{
 public:
     int n=0,m=0,ind[N]={0};
     vector<int> G[N],ans;
@@ -15,19 +17,21 @@ public:
 
 void TopoSort::creatG()
 {
+//    ifs >> this->n >> this->m;
     cin >> this->n >> this->m;
     for(int i=1;i<=this->m;i++)
     {
         int x,y;
         cin >> x >> y;
+//        ifs >> x >> y;
         if(x==y)
             throw runtime_error("cycle detected");
         this->ind[y]++;
         this->G[x].push_back(y);
     }
         for(int i=1;i<=this->n;i++)
-        if(this->ind[i]==0)
-            this->q.push(i);
+            if(this->ind[i]==0)
+                this->q.push(i);
 }
 void TopoSort::sort()
 {
@@ -38,7 +42,6 @@ void TopoSort::sort()
             this->q.pop();
             for(auto &i:this->G[x])
             {
-
                 this->ind[i]--;
                 if(this->ind[i] == 0)
                     this->q.push(i);
@@ -50,17 +53,22 @@ void TopoSort::sort()
 
 int main()
 {
-    try {
+
+//    ifs.open("../infile/test/p0001_3.in",ios::in);
+//    ofs.open("../outfile/test/p0001_3.out",ios::in);
+    try
+    {
         TopoSort t;
         t.creatG();
         t.sort();
         for(auto i:t.ans)
             cout << i << " ";
-    }
+        }
     catch (const runtime_error &e)
     {
         cout << e.what() << endl;
     }
-
+//    ifs.close();
+//    ofs.close();
     return 0;
 }

@@ -66,7 +66,7 @@ build CMakeFiles/A.dir/src/Codeforces/round1017(div.4)(2094)/A.cpp.obj: CXX_COMP
 
 build E$:/Code/clion_code/practice/.runtime/A.exe: CXX_EXECUTABLE_LINKER__A_Debug CMakeFiles/A.dir/src/Codeforces/round1017(div.4)(2094)/A.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\A.dir
   POST_BUILD = cd .
@@ -101,7 +101,7 @@ build CMakeFiles/B.dir/src/Codeforces/round1017(div.4)(2094)/B.cpp.obj: CXX_COMP
 
 build E$:/Code/clion_code/practice/.runtime/B.exe: CXX_EXECUTABLE_LINKER__B_Debug CMakeFiles/B.dir/src/Codeforces/round1017(div.4)(2094)/B.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\B.dir
   POST_BUILD = cd .
@@ -136,7 +136,7 @@ build CMakeFiles/19714.dir/src/lanqiao/19714.cpp.obj: CXX_COMPILER__19714_unscan
 
 build E$:/Code/clion_code/practice/.runtime/19714.exe: CXX_EXECUTABLE_LINKER__19714_Debug CMakeFiles/19714.dir/src/lanqiao/19714.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\19714.dir
   POST_BUILD = cd .
@@ -171,7 +171,7 @@ build CMakeFiles/19717.dir/src/lanqiao/19717.cpp.obj: CXX_COMPILER__19717_unscan
 
 build E$:/Code/clion_code/practice/.runtime/19717.exe: CXX_EXECUTABLE_LINKER__19717_Debug CMakeFiles/19717.dir/src/lanqiao/19717.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\19717.dir
   POST_BUILD = cd .
@@ -206,7 +206,7 @@ build CMakeFiles/19733.dir/src/lanqiao/19733.cpp.obj: CXX_COMPILER__19733_unscan
 
 build E$:/Code/clion_code/practice/.runtime/19733.exe: CXX_EXECUTABLE_LINKER__19733_Debug CMakeFiles/19733.dir/src/lanqiao/19733.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\19733.dir
   POST_BUILD = cd .
@@ -241,7 +241,7 @@ build CMakeFiles/20178.dir/src/lanqiao/20178.cpp.obj: CXX_COMPILER__20178_unscan
 
 build E$:/Code/clion_code/practice/.runtime/20178.exe: CXX_EXECUTABLE_LINKER__20178_Debug CMakeFiles/20178.dir/src/lanqiao/20178.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\20178.dir
   POST_BUILD = cd .
@@ -276,7 +276,7 @@ build CMakeFiles/20240.dir/src/lanqiao/20240.cpp.obj: CXX_COMPILER__20240_unscan
 
 build E$:/Code/clion_code/practice/.runtime/20240.exe: CXX_EXECUTABLE_LINKER__20240_Debug CMakeFiles/20240.dir/src/lanqiao/20240.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\20240.dir
   POST_BUILD = cd .
@@ -311,7 +311,7 @@ build CMakeFiles/20241.dir/src/lanqiao/20241.cpp.obj: CXX_COMPILER__20241_unscan
 
 build E$:/Code/clion_code/practice/.runtime/20241.exe: CXX_EXECUTABLE_LINKER__20241_Debug CMakeFiles/20241.dir/src/lanqiao/20241.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\20241.dir
   POST_BUILD = cd .
@@ -346,7 +346,7 @@ build CMakeFiles/20264.dir/src/lanqiao/20264.cpp.obj: CXX_COMPILER__20264_unscan
 
 build E$:/Code/clion_code/practice/.runtime/20264.exe: CXX_EXECUTABLE_LINKER__20264_Debug CMakeFiles/20264.dir/src/lanqiao/20264.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\20264.dir
   POST_BUILD = cd .
@@ -381,7 +381,7 @@ build CMakeFiles/20266.dir/src/lanqiao/20266.cpp.obj: CXX_COMPILER__20266_unscan
 
 build E$:/Code/clion_code/practice/.runtime/20266.exe: CXX_EXECUTABLE_LINKER__20266_Debug CMakeFiles/20266.dir/src/lanqiao/20266.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\20266.dir
   POST_BUILD = cd .
@@ -416,7 +416,7 @@ build CMakeFiles/20267.dir/src/lanqiao/20267.cpp.obj: CXX_COMPILER__20267_unscan
 
 build E$:/Code/clion_code/practice/.runtime/20267.exe: CXX_EXECUTABLE_LINKER__20267_Debug CMakeFiles/20267.dir/src/lanqiao/20267.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\20267.dir
   POST_BUILD = cd .
@@ -451,7 +451,7 @@ build CMakeFiles/20270.dir/src/lanqiao/20270.cpp.obj: CXX_COMPILER__20270_unscan
 
 build E$:/Code/clion_code/practice/.runtime/20270.exe: CXX_EXECUTABLE_LINKER__20270_Debug CMakeFiles/20270.dir/src/lanqiao/20270.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\20270.dir
   POST_BUILD = cd .
@@ -486,7 +486,7 @@ build CMakeFiles/20271.dir/src/lanqiao/20271.cpp.obj: CXX_COMPILER__20271_unscan
 
 build E$:/Code/clion_code/practice/.runtime/20271.exe: CXX_EXECUTABLE_LINKER__20271_Debug CMakeFiles/20271.dir/src/lanqiao/20271.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\20271.dir
   POST_BUILD = cd .
@@ -521,7 +521,7 @@ build CMakeFiles/20273.dir/src/lanqiao/20273.cpp.obj: CXX_COMPILER__20273_unscan
 
 build E$:/Code/clion_code/practice/.runtime/20273.exe: CXX_EXECUTABLE_LINKER__20273_Debug CMakeFiles/20273.dir/src/lanqiao/20273.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\20273.dir
   POST_BUILD = cd .
@@ -556,7 +556,7 @@ build CMakeFiles/20274.dir/src/lanqiao/20274.cpp.obj: CXX_COMPILER__20274_unscan
 
 build E$:/Code/clion_code/practice/.runtime/20274.exe: CXX_EXECUTABLE_LINKER__20274_Debug CMakeFiles/20274.dir/src/lanqiao/20274.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\20274.dir
   POST_BUILD = cd .
@@ -591,7 +591,7 @@ build CMakeFiles/20287.dir/src/lanqiao/20287.cpp.obj: CXX_COMPILER__20287_unscan
 
 build E$:/Code/clion_code/practice/.runtime/20287.exe: CXX_EXECUTABLE_LINKER__20287_Debug CMakeFiles/20287.dir/src/lanqiao/20287.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\20287.dir
   POST_BUILD = cd .
@@ -626,7 +626,7 @@ build CMakeFiles/20288.dir/src/lanqiao/20288.cpp.obj: CXX_COMPILER__20288_unscan
 
 build E$:/Code/clion_code/practice/.runtime/20288.exe: CXX_EXECUTABLE_LINKER__20288_Debug CMakeFiles/20288.dir/src/lanqiao/20288.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\20288.dir
   POST_BUILD = cd .
@@ -661,7 +661,7 @@ build CMakeFiles/20289.dir/src/lanqiao/20289.cpp.obj: CXX_COMPILER__20289_unscan
 
 build E$:/Code/clion_code/practice/.runtime/20289.exe: CXX_EXECUTABLE_LINKER__20289_Debug CMakeFiles/20289.dir/src/lanqiao/20289.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\20289.dir
   POST_BUILD = cd .
@@ -696,7 +696,7 @@ build CMakeFiles/303.dir/src/lanqiao/303.cpp.obj: CXX_COMPILER__303_unscanned_De
 
 build E$:/Code/clion_code/practice/.runtime/303.exe: CXX_EXECUTABLE_LINKER__303_Debug CMakeFiles/303.dir/src/lanqiao/303.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\303.dir
   POST_BUILD = cd .
@@ -731,7 +731,7 @@ build CMakeFiles/A_17104.dir/src/lanqiao/round_14GB/A_17104.cpp.obj: CXX_COMPILE
 
 build E$:/Code/clion_code/practice/.runtime/A_17104.exe: CXX_EXECUTABLE_LINKER__A_17104_Debug CMakeFiles/A_17104.dir/src/lanqiao/round_14GB/A_17104.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\A_17104.dir
   POST_BUILD = cd .
@@ -766,7 +766,7 @@ build CMakeFiles/A_3492.dir/src/lanqiao/round_14sB/A_3492.cpp.obj: CXX_COMPILER_
 
 build E$:/Code/clion_code/practice/.runtime/A_3492.exe: CXX_EXECUTABLE_LINKER__A_3492_Debug CMakeFiles/A_3492.dir/src/lanqiao/round_14sB/A_3492.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\A_3492.dir
   POST_BUILD = cd .
@@ -801,7 +801,7 @@ build CMakeFiles/B_p12338.dir/src/lanqiao/round_16sB/B_p12338.cpp.obj: CXX_COMPI
 
 build E$:/Code/clion_code/practice/.runtime/B_p12338.exe: CXX_EXECUTABLE_LINKER__B_p12338_Debug CMakeFiles/B_p12338.dir/src/lanqiao/round_16sB/B_p12338.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\B_p12338.dir
   POST_BUILD = cd .
@@ -836,7 +836,7 @@ build CMakeFiles/C_p12339.dir/src/lanqiao/round_16sB/C_p12339.cpp.obj: CXX_COMPI
 
 build E$:/Code/clion_code/practice/.runtime/C_p12339.exe: CXX_EXECUTABLE_LINKER__C_p12339_Debug CMakeFiles/C_p12339.dir/src/lanqiao/round_16sB/C_p12339.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C_p12339.dir
   POST_BUILD = cd .
@@ -871,7 +871,7 @@ build CMakeFiles/D_12340.dir/src/lanqiao/round_16sB/D_12340.cpp.obj: CXX_COMPILE
 
 build E$:/Code/clion_code/practice/.runtime/D_12340.exe: CXX_EXECUTABLE_LINKER__D_12340_Debug CMakeFiles/D_12340.dir/src/lanqiao/round_16sB/D_12340.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\D_12340.dir
   POST_BUILD = cd .
@@ -906,7 +906,7 @@ build CMakeFiles/E_p12342.dir/src/lanqiao/round_16sB/E_p12342.cpp.obj: CXX_COMPI
 
 build E$:/Code/clion_code/practice/.runtime/E_p12342.exe: CXX_EXECUTABLE_LINKER__E_p12342_Debug CMakeFiles/E_p12342.dir/src/lanqiao/round_16sB/E_p12342.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\E_p12342.dir
   POST_BUILD = cd .
@@ -941,7 +941,7 @@ build CMakeFiles/F_p12343.dir/src/lanqiao/round_16sB/F_p12343.cpp.obj: CXX_COMPI
 
 build E$:/Code/clion_code/practice/.runtime/F_p12343.exe: CXX_EXECUTABLE_LINKER__F_p12343_Debug CMakeFiles/F_p12343.dir/src/lanqiao/round_16sB/F_p12343.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\F_p12343.dir
   POST_BUILD = cd .
@@ -976,7 +976,7 @@ build CMakeFiles/H_p12344.dir/src/lanqiao/round_16sB/H_p12344.cpp.obj: CXX_COMPI
 
 build E$:/Code/clion_code/practice/.runtime/H_p12344.exe: CXX_EXECUTABLE_LINKER__H_p12344_Debug CMakeFiles/H_p12344.dir/src/lanqiao/round_16sB/H_p12344.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\H_p12344.dir
   POST_BUILD = cd .
@@ -1011,7 +1011,7 @@ build CMakeFiles/P1028.dir/src/luogu/P1028.cpp.obj: CXX_COMPILER__P1028_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/P1028.exe: CXX_EXECUTABLE_LINKER__P1028_Debug CMakeFiles/P1028.dir/src/luogu/P1028.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\P1028.dir
   POST_BUILD = cd .
@@ -1046,7 +1046,7 @@ build CMakeFiles/P12130.dir/src/luogu/P12130.cpp.obj: CXX_COMPILER__P12130_unsca
 
 build E$:/Code/clion_code/practice/.runtime/P12130.exe: CXX_EXECUTABLE_LINKER__P12130_Debug CMakeFiles/P12130.dir/src/luogu/P12130.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\P12130.dir
   POST_BUILD = cd .
@@ -1081,7 +1081,7 @@ build CMakeFiles/T207707.dir/src/luogu/T207707.cpp.obj: CXX_COMPILER__T207707_un
 
 build E$:/Code/clion_code/practice/.runtime/T207707.exe: CXX_EXECUTABLE_LINKER__T207707_Debug CMakeFiles/T207707.dir/src/luogu/T207707.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\T207707.dir
   POST_BUILD = cd .
@@ -1116,7 +1116,7 @@ build CMakeFiles/T270713.dir/src/luogu/T270713.cpp.obj: CXX_COMPILER__T270713_un
 
 build E$:/Code/clion_code/practice/.runtime/T270713.exe: CXX_EXECUTABLE_LINKER__T270713_Debug CMakeFiles/T270713.dir/src/luogu/T270713.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\T270713.dir
   POST_BUILD = cd .
@@ -1151,7 +1151,7 @@ build CMakeFiles/T270714.dir/src/luogu/T270714.cpp.obj: CXX_COMPILER__T270714_un
 
 build E$:/Code/clion_code/practice/.runtime/T270714.exe: CXX_EXECUTABLE_LINKER__T270714_Debug CMakeFiles/T270714.dir/src/luogu/T270714.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\T270714.dir
   POST_BUILD = cd .
@@ -1186,7 +1186,7 @@ build CMakeFiles/p1002.dir/src/luogu/p1002.cpp.obj: CXX_COMPILER__p1002_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1002.exe: CXX_EXECUTABLE_LINKER__p1002_Debug CMakeFiles/p1002.dir/src/luogu/p1002.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1002.dir
   POST_BUILD = cd .
@@ -1221,7 +1221,7 @@ build CMakeFiles/p1003.dir/src/luogu/p1003.cpp.obj: CXX_COMPILER__p1003_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1003.exe: CXX_EXECUTABLE_LINKER__p1003_Debug CMakeFiles/p1003.dir/src/luogu/p1003.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1003.dir
   POST_BUILD = cd .
@@ -1256,7 +1256,7 @@ build CMakeFiles/p1036.dir/src/luogu/p1036.cpp.obj: CXX_COMPILER__p1036_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1036.exe: CXX_EXECUTABLE_LINKER__p1036_Debug CMakeFiles/p1036.dir/src/luogu/p1036.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1036.dir
   POST_BUILD = cd .
@@ -1291,7 +1291,7 @@ build CMakeFiles/p1055.dir/src/luogu/p1055.cpp.obj: CXX_COMPILER__p1055_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1055.exe: CXX_EXECUTABLE_LINKER__p1055_Debug CMakeFiles/p1055.dir/src/luogu/p1055.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1055.dir
   POST_BUILD = cd .
@@ -1326,7 +1326,7 @@ build CMakeFiles/p1059.dir/src/luogu/p1059.cpp.obj: CXX_COMPILER__p1059_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1059.exe: CXX_EXECUTABLE_LINKER__p1059_Debug CMakeFiles/p1059.dir/src/luogu/p1059.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1059.dir
   POST_BUILD = cd .
@@ -1361,7 +1361,7 @@ build CMakeFiles/p1062.dir/src/luogu/p1062.cpp.obj: CXX_COMPILER__p1062_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1062.exe: CXX_EXECUTABLE_LINKER__p1062_Debug CMakeFiles/p1062.dir/src/luogu/p1062.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1062.dir
   POST_BUILD = cd .
@@ -1396,7 +1396,7 @@ build CMakeFiles/p1063.dir/src/luogu/p1063.cpp.obj: CXX_COMPILER__p1063_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1063.exe: CXX_EXECUTABLE_LINKER__p1063_Debug CMakeFiles/p1063.dir/src/luogu/p1063.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1063.dir
   POST_BUILD = cd .
@@ -1431,7 +1431,7 @@ build CMakeFiles/p1093.dir/src/luogu/p1093.cpp.obj: CXX_COMPILER__p1093_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1093.exe: CXX_EXECUTABLE_LINKER__p1093_Debug CMakeFiles/p1093.dir/src/luogu/p1093.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1093.dir
   POST_BUILD = cd .
@@ -1466,7 +1466,7 @@ build CMakeFiles/p1113.dir/src/luogu/p1113.cpp.obj: CXX_COMPILER__p1113_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1113.exe: CXX_EXECUTABLE_LINKER__p1113_Debug CMakeFiles/p1113.dir/src/luogu/p1113.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1113.dir
   POST_BUILD = cd .
@@ -1501,7 +1501,7 @@ build CMakeFiles/p1115.dir/src/luogu/p1115.cpp.obj: CXX_COMPILER__p1115_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1115.exe: CXX_EXECUTABLE_LINKER__p1115_Debug CMakeFiles/p1115.dir/src/luogu/p1115.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1115.dir
   POST_BUILD = cd .
@@ -1536,7 +1536,7 @@ build CMakeFiles/p1164.dir/src/luogu/p1164.cpp.obj: CXX_COMPILER__p1164_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1164.exe: CXX_EXECUTABLE_LINKER__p1164_Debug CMakeFiles/p1164.dir/src/luogu/p1164.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1164.dir
   POST_BUILD = cd .
@@ -1544,6 +1544,41 @@ build E$:/Code/clion_code/practice/.runtime/p1164.exe: CXX_EXECUTABLE_LINKER__p1
   TARGET_FILE = E:\Code\clion_code\practice\.runtime\p1164.exe
   TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libp1164.dll.a
   TARGET_PDB = p1164.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target p1182
+
+
+#############################################
+# Order-only phony target for p1182
+
+build cmake_object_order_depends_target_p1182: phony || .
+
+build CMakeFiles/p1182.dir/src/luogu/p1182.cpp.obj: CXX_COMPILER__p1182_unscanned_Debug E$:/Code/clion_code/practice/src/luogu/p1182.cpp || cmake_object_order_depends_target_p1182
+  DEP_FILE = CMakeFiles\p1182.dir\src\luogu\p1182.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\p1182.dir
+  OBJECT_FILE_DIR = CMakeFiles\p1182.dir\src\luogu
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p1182
+
+
+#############################################
+# Link the executable E:\Code\clion_code\practice\.runtime\p1182.exe
+
+build E$:/Code/clion_code/practice/.runtime/p1182.exe: CXX_EXECUTABLE_LINKER__p1182_Debug CMakeFiles/p1182.dir/src/luogu/p1182.cpp.obj
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--stack,134217728
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\p1182.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\p1182.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libp1182.dll.a
+  TARGET_PDB = p1182.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target p12131
@@ -1571,7 +1606,7 @@ build CMakeFiles/p12131.dir/src/luogu/p12131.cpp.obj: CXX_COMPILER__p12131_unsca
 
 build E$:/Code/clion_code/practice/.runtime/p12131.exe: CXX_EXECUTABLE_LINKER__p12131_Debug CMakeFiles/p12131.dir/src/luogu/p12131.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p12131.dir
   POST_BUILD = cd .
@@ -1606,7 +1641,7 @@ build CMakeFiles/p12132.dir/src/luogu/p12132.cpp.obj: CXX_COMPILER__p12132_unsca
 
 build E$:/Code/clion_code/practice/.runtime/p12132.exe: CXX_EXECUTABLE_LINKER__p12132_Debug CMakeFiles/p12132.dir/src/luogu/p12132.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p12132.dir
   POST_BUILD = cd .
@@ -1641,7 +1676,7 @@ build CMakeFiles/p12133.dir/src/luogu/p12133.cpp.obj: CXX_COMPILER__p12133_unsca
 
 build E$:/Code/clion_code/practice/.runtime/p12133.exe: CXX_EXECUTABLE_LINKER__p12133_Debug CMakeFiles/p12133.dir/src/luogu/p12133.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p12133.dir
   POST_BUILD = cd .
@@ -1676,7 +1711,7 @@ build CMakeFiles/p12134.dir/src/luogu/p12134.cpp.obj: CXX_COMPILER__p12134_unsca
 
 build E$:/Code/clion_code/practice/.runtime/p12134.exe: CXX_EXECUTABLE_LINKER__p12134_Debug CMakeFiles/p12134.dir/src/luogu/p12134.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p12134.dir
   POST_BUILD = cd .
@@ -1711,7 +1746,7 @@ build CMakeFiles/p1216.dir/src/luogu/p1216.cpp.obj: CXX_COMPILER__p1216_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1216.exe: CXX_EXECUTABLE_LINKER__p1216_Debug CMakeFiles/p1216.dir/src/luogu/p1216.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1216.dir
   POST_BUILD = cd .
@@ -1746,7 +1781,7 @@ build CMakeFiles/p1226.dir/src/luogu/p1226.cpp.obj: CXX_COMPILER__p1226_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1226.exe: CXX_EXECUTABLE_LINKER__p1226_Debug CMakeFiles/p1226.dir/src/luogu/p1226.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1226.dir
   POST_BUILD = cd .
@@ -1781,7 +1816,7 @@ build CMakeFiles/p1303.dir/src/luogu/p1303.cpp.obj: CXX_COMPILER__p1303_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1303.exe: CXX_EXECUTABLE_LINKER__p1303_Debug CMakeFiles/p1303.dir/src/luogu/p1303.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1303.dir
   POST_BUILD = cd .
@@ -1816,7 +1851,7 @@ build CMakeFiles/p1314.dir/src/luogu/p1314.cpp.obj: CXX_COMPILER__p1314_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1314.exe: CXX_EXECUTABLE_LINKER__p1314_Debug CMakeFiles/p1314.dir/src/luogu/p1314.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1314.dir
   POST_BUILD = cd .
@@ -1851,7 +1886,7 @@ build CMakeFiles/p1434.dir/src/luogu/p1434.cpp.obj: CXX_COMPILER__p1434_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1434.exe: CXX_EXECUTABLE_LINKER__p1434_Debug CMakeFiles/p1434.dir/src/luogu/p1434.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1434.dir
   POST_BUILD = cd .
@@ -1886,7 +1921,7 @@ build CMakeFiles/p1496.dir/src/luogu/p1496.cpp.obj: CXX_COMPILER__p1496_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1496.exe: CXX_EXECUTABLE_LINKER__p1496_Debug CMakeFiles/p1496.dir/src/luogu/p1496.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1496.dir
   POST_BUILD = cd .
@@ -1921,7 +1956,7 @@ build CMakeFiles/p1601.dir/src/luogu/p1601.cpp.obj: CXX_COMPILER__p1601_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1601.exe: CXX_EXECUTABLE_LINKER__p1601_Debug CMakeFiles/p1601.dir/src/luogu/p1601.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1601.dir
   POST_BUILD = cd .
@@ -1956,7 +1991,7 @@ build CMakeFiles/p1678.dir/src/luogu/p1678.cpp.obj: CXX_COMPILER__p1678_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1678.exe: CXX_EXECUTABLE_LINKER__p1678_Debug CMakeFiles/p1678.dir/src/luogu/p1678.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1678.dir
   POST_BUILD = cd .
@@ -1991,7 +2026,7 @@ build CMakeFiles/p1706.dir/src/luogu/p1706.cpp.obj: CXX_COMPILER__p1706_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1706.exe: CXX_EXECUTABLE_LINKER__p1706_Debug CMakeFiles/p1706.dir/src/luogu/p1706.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1706.dir
   POST_BUILD = cd .
@@ -2026,7 +2061,7 @@ build CMakeFiles/p1719.dir/src/luogu/p1719.cpp.obj: CXX_COMPILER__p1719_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p1719.exe: CXX_EXECUTABLE_LINKER__p1719_Debug CMakeFiles/p1719.dir/src/luogu/p1719.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p1719.dir
   POST_BUILD = cd .
@@ -2034,6 +2069,41 @@ build E$:/Code/clion_code/practice/.runtime/p1719.exe: CXX_EXECUTABLE_LINKER__p1
   TARGET_FILE = E:\Code\clion_code\practice\.runtime\p1719.exe
   TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libp1719.dll.a
   TARGET_PDB = p1719.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target p1824
+
+
+#############################################
+# Order-only phony target for p1824
+
+build cmake_object_order_depends_target_p1824: phony || .
+
+build CMakeFiles/p1824.dir/src/luogu/p1824.cpp.obj: CXX_COMPILER__p1824_unscanned_Debug E$:/Code/clion_code/practice/src/luogu/p1824.cpp || cmake_object_order_depends_target_p1824
+  DEP_FILE = CMakeFiles\p1824.dir\src\luogu\p1824.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\p1824.dir
+  OBJECT_FILE_DIR = CMakeFiles\p1824.dir\src\luogu
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p1824
+
+
+#############################################
+# Link the executable E:\Code\clion_code\practice\.runtime\p1824.exe
+
+build E$:/Code/clion_code/practice/.runtime/p1824.exe: CXX_EXECUTABLE_LINKER__p1824_Debug CMakeFiles/p1824.dir/src/luogu/p1824.cpp.obj
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--stack,134217728
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\p1824.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\p1824.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libp1824.dll.a
+  TARGET_PDB = p1824.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target p2036
@@ -2061,7 +2131,7 @@ build CMakeFiles/p2036.dir/src/luogu/p2036.cpp.obj: CXX_COMPILER__p2036_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p2036.exe: CXX_EXECUTABLE_LINKER__p2036_Debug CMakeFiles/p2036.dir/src/luogu/p2036.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p2036.dir
   POST_BUILD = cd .
@@ -2096,7 +2166,7 @@ build CMakeFiles/p2084.dir/src/luogu/p2084.cpp.obj: CXX_COMPILER__p2084_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p2084.exe: CXX_EXECUTABLE_LINKER__p2084_Debug CMakeFiles/p2084.dir/src/luogu/p2084.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p2084.dir
   POST_BUILD = cd .
@@ -2131,7 +2201,7 @@ build CMakeFiles/p2367.dir/src/luogu/p2367.cpp.obj: CXX_COMPILER__p2367_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p2367.exe: CXX_EXECUTABLE_LINKER__p2367_Debug CMakeFiles/p2367.dir/src/luogu/p2367.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p2367.dir
   POST_BUILD = cd .
@@ -2139,6 +2209,41 @@ build E$:/Code/clion_code/practice/.runtime/p2367.exe: CXX_EXECUTABLE_LINKER__p2
   TARGET_FILE = E:\Code\clion_code\practice\.runtime\p2367.exe
   TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libp2367.dll.a
   TARGET_PDB = p2367.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target p2440
+
+
+#############################################
+# Order-only phony target for p2440
+
+build cmake_object_order_depends_target_p2440: phony || .
+
+build CMakeFiles/p2440.dir/src/luogu/p2440.cpp.obj: CXX_COMPILER__p2440_unscanned_Debug E$:/Code/clion_code/practice/src/luogu/p2440.cpp || cmake_object_order_depends_target_p2440
+  DEP_FILE = CMakeFiles\p2440.dir\src\luogu\p2440.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\p2440.dir
+  OBJECT_FILE_DIR = CMakeFiles\p2440.dir\src\luogu
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p2440
+
+
+#############################################
+# Link the executable E:\Code\clion_code\practice\.runtime\p2440.exe
+
+build E$:/Code/clion_code/practice/.runtime/p2440.exe: CXX_EXECUTABLE_LINKER__p2440_Debug CMakeFiles/p2440.dir/src/luogu/p2440.cpp.obj
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--stack,134217728
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\p2440.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\p2440.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libp2440.dll.a
+  TARGET_PDB = p2440.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target p2678
@@ -2166,7 +2271,7 @@ build CMakeFiles/p2678.dir/src/luogu/p2678.cpp.obj: CXX_COMPILER__p2678_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p2678.exe: CXX_EXECUTABLE_LINKER__p2678_Debug CMakeFiles/p2678.dir/src/luogu/p2678.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p2678.dir
   POST_BUILD = cd .
@@ -2201,7 +2306,7 @@ build CMakeFiles/p3397.dir/src/luogu/p3397.cpp.obj: CXX_COMPILER__p3397_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p3397.exe: CXX_EXECUTABLE_LINKER__p3397_Debug CMakeFiles/p3397.dir/src/luogu/p3397.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p3397.dir
   POST_BUILD = cd .
@@ -2236,7 +2341,7 @@ build CMakeFiles/p3799.dir/src/luogu/p3799.cpp.obj: CXX_COMPILER__p3799_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p3799.exe: CXX_EXECUTABLE_LINKER__p3799_Debug CMakeFiles/p3799.dir/src/luogu/p3799.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p3799.dir
   POST_BUILD = cd .
@@ -2244,6 +2349,41 @@ build E$:/Code/clion_code/practice/.runtime/p3799.exe: CXX_EXECUTABLE_LINKER__p3
   TARGET_FILE = E:\Code\clion_code\practice\.runtime\p3799.exe
   TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libp3799.dll.a
   TARGET_PDB = p3799.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target p3853
+
+
+#############################################
+# Order-only phony target for p3853
+
+build cmake_object_order_depends_target_p3853: phony || .
+
+build CMakeFiles/p3853.dir/src/luogu/p3853.cpp.obj: CXX_COMPILER__p3853_unscanned_Debug E$:/Code/clion_code/practice/src/luogu/p3853.cpp || cmake_object_order_depends_target_p3853
+  DEP_FILE = CMakeFiles\p3853.dir\src\luogu\p3853.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IE:/Code/clion_code/practice -I/src
+  OBJECT_DIR = CMakeFiles\p3853.dir
+  OBJECT_FILE_DIR = CMakeFiles\p3853.dir\src\luogu
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p3853
+
+
+#############################################
+# Link the executable E:\Code\clion_code\practice\.runtime\p3853.exe
+
+build E$:/Code/clion_code/practice/.runtime/p3853.exe: CXX_EXECUTABLE_LINKER__p3853_Debug CMakeFiles/p3853.dir/src/luogu/p3853.cpp.obj
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--stack,134217728
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\p3853.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E:\Code\clion_code\practice\.runtime\p3853.exe
+  TARGET_IMPLIB = E:\Code\clion_code\practice\.archive\libp3853.dll.a
+  TARGET_PDB = p3853.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target p4017
@@ -2271,7 +2411,7 @@ build CMakeFiles/p4017.dir/src/luogu/p4017.cpp.obj: CXX_COMPILER__p4017_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p4017.exe: CXX_EXECUTABLE_LINKER__p4017_Debug CMakeFiles/p4017.dir/src/luogu/p4017.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p4017.dir
   POST_BUILD = cd .
@@ -2306,7 +2446,7 @@ build CMakeFiles/p5318.dir/src/luogu/p5318.cpp.obj: CXX_COMPILER__p5318_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p5318.exe: CXX_EXECUTABLE_LINKER__p5318_Debug CMakeFiles/p5318.dir/src/luogu/p5318.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p5318.dir
   POST_BUILD = cd .
@@ -2341,7 +2481,7 @@ build CMakeFiles/p5743.dir/src/luogu/p5743.cpp.obj: CXX_COMPILER__p5743_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p5743.exe: CXX_EXECUTABLE_LINKER__p5743_Debug CMakeFiles/p5743.dir/src/luogu/p5743.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p5743.dir
   POST_BUILD = cd .
@@ -2376,7 +2516,7 @@ build CMakeFiles/p8218.dir/src/luogu/p8218.cpp.obj: CXX_COMPILER__p8218_unscanne
 
 build E$:/Code/clion_code/practice/.runtime/p8218.exe: CXX_EXECUTABLE_LINKER__p8218_Debug CMakeFiles/p8218.dir/src/luogu/p8218.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\p8218.dir
   POST_BUILD = cd .
@@ -2411,7 +2551,7 @@ build CMakeFiles/CreatGraph.dir/src/test/CreatGraph.cpp.obj: CXX_COMPILER__Creat
 
 build E$:/Code/clion_code/practice/.runtime/CreatGraph.exe: CXX_EXECUTABLE_LINKER__CreatGraph_Debug CMakeFiles/CreatGraph.dir/src/test/CreatGraph.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CreatGraph.dir
   POST_BUILD = cd .
@@ -2446,7 +2586,7 @@ build CMakeFiles/STL.dir/src/test/STL.cpp.obj: CXX_COMPILER__STL_unscanned_Debug
 
 build E$:/Code/clion_code/practice/.runtime/STL.exe: CXX_EXECUTABLE_LINKER__STL_Debug CMakeFiles/STL.dir/src/test/STL.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\STL.dir
   POST_BUILD = cd .
@@ -2481,7 +2621,7 @@ build CMakeFiles/class.dir/src/test/class.cpp.obj: CXX_COMPILER__class_unscanned
 
 build E$:/Code/clion_code/practice/.runtime/class.exe: CXX_EXECUTABLE_LINKER__class_Debug CMakeFiles/class.dir/src/test/class.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\class.dir
   POST_BUILD = cd .
@@ -2516,7 +2656,7 @@ build CMakeFiles/class1.dir/src/test/class1.cpp.obj: CXX_COMPILER__class1_unscan
 
 build E$:/Code/clion_code/practice/.runtime/class1.exe: CXX_EXECUTABLE_LINKER__class1_Debug CMakeFiles/class1.dir/src/test/class1.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\class1.dir
   POST_BUILD = cd .
@@ -2551,7 +2691,7 @@ build CMakeFiles/combination.dir/src/test/combination.cpp.obj: CXX_COMPILER__com
 
 build E$:/Code/clion_code/practice/.runtime/combination.exe: CXX_EXECUTABLE_LINKER__combination_Debug CMakeFiles/combination.dir/src/test/combination.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\combination.dir
   POST_BUILD = cd .
@@ -2586,7 +2726,7 @@ build CMakeFiles/compare_tree.dir/src/test/compare_tree.cpp.obj: CXX_COMPILER__c
 
 build E$:/Code/clion_code/practice/.runtime/compare_tree.exe: CXX_EXECUTABLE_LINKER__compare_tree_Debug CMakeFiles/compare_tree.dir/src/test/compare_tree.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\compare_tree.dir
   POST_BUILD = cd .
@@ -2621,7 +2761,7 @@ build CMakeFiles/fastPow.dir/src/test/fastPow.cpp.obj: CXX_COMPILER__fastPow_uns
 
 build E$:/Code/clion_code/practice/.runtime/fastPow.exe: CXX_EXECUTABLE_LINKER__fastPow_Debug CMakeFiles/fastPow.dir/src/test/fastPow.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\fastPow.dir
   POST_BUILD = cd .
@@ -2656,7 +2796,7 @@ build CMakeFiles/fullArray.dir/src/test/fullArray.cpp.obj: CXX_COMPILER__fullArr
 
 build E$:/Code/clion_code/practice/.runtime/fullArray.exe: CXX_EXECUTABLE_LINKER__fullArray_Debug CMakeFiles/fullArray.dir/src/test/fullArray.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\fullArray.dir
   POST_BUILD = cd .
@@ -2691,7 +2831,7 @@ build CMakeFiles/high_precision.dir/src/test/high_precision.cpp.obj: CXX_COMPILE
 
 build E$:/Code/clion_code/practice/.runtime/high_precision.exe: CXX_EXECUTABLE_LINKER__high_precision_Debug CMakeFiles/high_precision.dir/src/test/high_precision.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\high_precision.dir
   POST_BUILD = cd .
@@ -2726,7 +2866,7 @@ build CMakeFiles/infile.dir/src/test/infile.cpp.obj: CXX_COMPILER__infile_unscan
 
 build E$:/Code/clion_code/practice/.runtime/infile.exe: CXX_EXECUTABLE_LINKER__infile_Debug CMakeFiles/infile.dir/src/test/infile.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\infile.dir
   POST_BUILD = cd .
@@ -2761,7 +2901,7 @@ build CMakeFiles/main.dir/src/test/main.cpp.obj: CXX_COMPILER__main_unscanned_De
 
 build E$:/Code/clion_code/practice/.runtime/main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/src/test/main.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\main.dir
   POST_BUILD = cd .
@@ -2796,7 +2936,7 @@ build CMakeFiles/next_permutation.dir/src/test/next_permutation.cpp.obj: CXX_COM
 
 build E$:/Code/clion_code/practice/.runtime/next_permutation.exe: CXX_EXECUTABLE_LINKER__next_permutation_Debug CMakeFiles/next_permutation.dir/src/test/next_permutation.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\next_permutation.dir
   POST_BUILD = cd .
@@ -2831,7 +2971,7 @@ build CMakeFiles/operator.dir/src/test/operator.cpp.obj: CXX_COMPILER__operator_
 
 build E$:/Code/clion_code/practice/.runtime/operator.exe: CXX_EXECUTABLE_LINKER__operator_Debug CMakeFiles/operator.dir/src/test/operator.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\operator.dir
   POST_BUILD = cd .
@@ -2866,7 +3006,7 @@ build CMakeFiles/outfile.dir/src/test/outfile.cpp.obj: CXX_COMPILER__outfile_uns
 
 build E$:/Code/clion_code/practice/.runtime/outfile.exe: CXX_EXECUTABLE_LINKER__outfile_Debug CMakeFiles/outfile.dir/src/test/outfile.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\outfile.dir
   POST_BUILD = cd .
@@ -2901,7 +3041,7 @@ build CMakeFiles/pointCount_tree.dir/src/test/pointCount_tree.cpp.obj: CXX_COMPI
 
 build E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe: CXX_EXECUTABLE_LINKER__pointCount_tree_Debug CMakeFiles/pointCount_tree.dir/src/test/pointCount_tree.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\pointCount_tree.dir
   POST_BUILD = cd .
@@ -2936,7 +3076,7 @@ build CMakeFiles/polynomial_calculation.dir/src/test/polynomial_calculation.cpp.
 
 build E$:/Code/clion_code/practice/.runtime/polynomial_calculation.exe: CXX_EXECUTABLE_LINKER__polynomial_calculation_Debug CMakeFiles/polynomial_calculation.dir/src/test/polynomial_calculation.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\polynomial_calculation.dir
   POST_BUILD = cd .
@@ -2971,7 +3111,7 @@ build CMakeFiles/prime_num.dir/src/test/prime_num.cpp.obj: CXX_COMPILER__prime_n
 
 build E$:/Code/clion_code/practice/.runtime/prime_num.exe: CXX_EXECUTABLE_LINKER__prime_num_Debug CMakeFiles/prime_num.dir/src/test/prime_num.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\prime_num.dir
   POST_BUILD = cd .
@@ -3006,7 +3146,7 @@ build CMakeFiles/test.dir/src/test/test.cpp.obj: CXX_COMPILER__test_unscanned_De
 
 build E$:/Code/clion_code/practice/.runtime/test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/src/test/test.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\test.dir
   POST_BUILD = cd .
@@ -3041,7 +3181,7 @@ build CMakeFiles/test2.dir/src/test/test2.cpp.obj: CXX_COMPILER__test2_unscanned
 
 build E$:/Code/clion_code/practice/.runtime/test2.exe: CXX_EXECUTABLE_LINKER__test2_Debug CMakeFiles/test2.dir/src/test/test2.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\test2.dir
   POST_BUILD = cd .
@@ -3076,7 +3216,7 @@ build CMakeFiles/test3.dir/src/test/test3.cpp.obj: CXX_COMPILER__test3_unscanned
 
 build E$:/Code/clion_code/practice/.runtime/test3.exe: CXX_EXECUTABLE_LINKER__test3_Debug CMakeFiles/test3.dir/src/test/test3.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\test3.dir
   POST_BUILD = cd .
@@ -3111,7 +3251,7 @@ build CMakeFiles/topological_sorting.dir/src/test/topological_sorting.cpp.obj: C
 
 build E$:/Code/clion_code/practice/.runtime/topological_sorting.exe: CXX_EXECUTABLE_LINKER__topological_sorting_Debug CMakeFiles/topological_sorting.dir/src/test/topological_sorting.cpp.obj
   FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_FLAGS = -Wl,--stack,134217728
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\topological_sorting.dir
   POST_BUILD = cd .
@@ -3374,6 +3514,10 @@ build p1164: phony E$:/Code/clion_code/practice/.runtime/p1164.exe
 
 build p1164.exe: phony E$:/Code/clion_code/practice/.runtime/p1164.exe
 
+build p1182: phony E$:/Code/clion_code/practice/.runtime/p1182.exe
+
+build p1182.exe: phony E$:/Code/clion_code/practice/.runtime/p1182.exe
+
 build p12131: phony E$:/Code/clion_code/practice/.runtime/p12131.exe
 
 build p12131.exe: phony E$:/Code/clion_code/practice/.runtime/p12131.exe
@@ -3430,6 +3574,10 @@ build p1719: phony E$:/Code/clion_code/practice/.runtime/p1719.exe
 
 build p1719.exe: phony E$:/Code/clion_code/practice/.runtime/p1719.exe
 
+build p1824: phony E$:/Code/clion_code/practice/.runtime/p1824.exe
+
+build p1824.exe: phony E$:/Code/clion_code/practice/.runtime/p1824.exe
+
 build p2036: phony E$:/Code/clion_code/practice/.runtime/p2036.exe
 
 build p2036.exe: phony E$:/Code/clion_code/practice/.runtime/p2036.exe
@@ -3442,6 +3590,10 @@ build p2367: phony E$:/Code/clion_code/practice/.runtime/p2367.exe
 
 build p2367.exe: phony E$:/Code/clion_code/practice/.runtime/p2367.exe
 
+build p2440: phony E$:/Code/clion_code/practice/.runtime/p2440.exe
+
+build p2440.exe: phony E$:/Code/clion_code/practice/.runtime/p2440.exe
+
 build p2678: phony E$:/Code/clion_code/practice/.runtime/p2678.exe
 
 build p2678.exe: phony E$:/Code/clion_code/practice/.runtime/p2678.exe
@@ -3453,6 +3605,10 @@ build p3397.exe: phony E$:/Code/clion_code/practice/.runtime/p3397.exe
 build p3799: phony E$:/Code/clion_code/practice/.runtime/p3799.exe
 
 build p3799.exe: phony E$:/Code/clion_code/practice/.runtime/p3799.exe
+
+build p3853: phony E$:/Code/clion_code/practice/.runtime/p3853.exe
+
+build p3853.exe: phony E$:/Code/clion_code/practice/.runtime/p3853.exe
 
 build p4017: phony E$:/Code/clion_code/practice/.runtime/p4017.exe
 
@@ -3506,7 +3662,7 @@ build topological_sorting.exe: phony E$:/Code/clion_code/practice/.runtime/topol
 #############################################
 # Folder: E:/Code/clion_code/practice/cmake-build-debug
 
-build all: phony E$:/Code/clion_code/practice/.runtime/A.exe E$:/Code/clion_code/practice/.runtime/B.exe E$:/Code/clion_code/practice/.runtime/19714.exe E$:/Code/clion_code/practice/.runtime/19717.exe E$:/Code/clion_code/practice/.runtime/19733.exe E$:/Code/clion_code/practice/.runtime/20178.exe E$:/Code/clion_code/practice/.runtime/20240.exe E$:/Code/clion_code/practice/.runtime/20241.exe E$:/Code/clion_code/practice/.runtime/20264.exe E$:/Code/clion_code/practice/.runtime/20266.exe E$:/Code/clion_code/practice/.runtime/20267.exe E$:/Code/clion_code/practice/.runtime/20270.exe E$:/Code/clion_code/practice/.runtime/20271.exe E$:/Code/clion_code/practice/.runtime/20273.exe E$:/Code/clion_code/practice/.runtime/20274.exe E$:/Code/clion_code/practice/.runtime/20287.exe E$:/Code/clion_code/practice/.runtime/20288.exe E$:/Code/clion_code/practice/.runtime/20289.exe E$:/Code/clion_code/practice/.runtime/303.exe E$:/Code/clion_code/practice/.runtime/A_17104.exe E$:/Code/clion_code/practice/.runtime/A_3492.exe E$:/Code/clion_code/practice/.runtime/B_p12338.exe E$:/Code/clion_code/practice/.runtime/C_p12339.exe E$:/Code/clion_code/practice/.runtime/D_12340.exe E$:/Code/clion_code/practice/.runtime/E_p12342.exe E$:/Code/clion_code/practice/.runtime/F_p12343.exe E$:/Code/clion_code/practice/.runtime/H_p12344.exe E$:/Code/clion_code/practice/.runtime/P1028.exe E$:/Code/clion_code/practice/.runtime/P12130.exe E$:/Code/clion_code/practice/.runtime/T207707.exe E$:/Code/clion_code/practice/.runtime/T270713.exe E$:/Code/clion_code/practice/.runtime/T270714.exe E$:/Code/clion_code/practice/.runtime/p1002.exe E$:/Code/clion_code/practice/.runtime/p1003.exe E$:/Code/clion_code/practice/.runtime/p1036.exe E$:/Code/clion_code/practice/.runtime/p1055.exe E$:/Code/clion_code/practice/.runtime/p1059.exe E$:/Code/clion_code/practice/.runtime/p1062.exe E$:/Code/clion_code/practice/.runtime/p1063.exe E$:/Code/clion_code/practice/.runtime/p1093.exe E$:/Code/clion_code/practice/.runtime/p1113.exe E$:/Code/clion_code/practice/.runtime/p1115.exe E$:/Code/clion_code/practice/.runtime/p1164.exe E$:/Code/clion_code/practice/.runtime/p12131.exe E$:/Code/clion_code/practice/.runtime/p12132.exe E$:/Code/clion_code/practice/.runtime/p12133.exe E$:/Code/clion_code/practice/.runtime/p12134.exe E$:/Code/clion_code/practice/.runtime/p1216.exe E$:/Code/clion_code/practice/.runtime/p1226.exe E$:/Code/clion_code/practice/.runtime/p1303.exe E$:/Code/clion_code/practice/.runtime/p1314.exe E$:/Code/clion_code/practice/.runtime/p1434.exe E$:/Code/clion_code/practice/.runtime/p1496.exe E$:/Code/clion_code/practice/.runtime/p1601.exe E$:/Code/clion_code/practice/.runtime/p1678.exe E$:/Code/clion_code/practice/.runtime/p1706.exe E$:/Code/clion_code/practice/.runtime/p1719.exe E$:/Code/clion_code/practice/.runtime/p2036.exe E$:/Code/clion_code/practice/.runtime/p2084.exe E$:/Code/clion_code/practice/.runtime/p2367.exe E$:/Code/clion_code/practice/.runtime/p2678.exe E$:/Code/clion_code/practice/.runtime/p3397.exe E$:/Code/clion_code/practice/.runtime/p3799.exe E$:/Code/clion_code/practice/.runtime/p4017.exe E$:/Code/clion_code/practice/.runtime/p5318.exe E$:/Code/clion_code/practice/.runtime/p5743.exe E$:/Code/clion_code/practice/.runtime/p8218.exe E$:/Code/clion_code/practice/.runtime/CreatGraph.exe E$:/Code/clion_code/practice/.runtime/STL.exe E$:/Code/clion_code/practice/.runtime/class.exe E$:/Code/clion_code/practice/.runtime/class1.exe E$:/Code/clion_code/practice/.runtime/combination.exe E$:/Code/clion_code/practice/.runtime/compare_tree.exe E$:/Code/clion_code/practice/.runtime/fastPow.exe E$:/Code/clion_code/practice/.runtime/fullArray.exe E$:/Code/clion_code/practice/.runtime/high_precision.exe E$:/Code/clion_code/practice/.runtime/infile.exe E$:/Code/clion_code/practice/.runtime/main.exe E$:/Code/clion_code/practice/.runtime/next_permutation.exe E$:/Code/clion_code/practice/.runtime/operator.exe E$:/Code/clion_code/practice/.runtime/outfile.exe E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe E$:/Code/clion_code/practice/.runtime/polynomial_calculation.exe E$:/Code/clion_code/practice/.runtime/prime_num.exe E$:/Code/clion_code/practice/.runtime/test.exe E$:/Code/clion_code/practice/.runtime/test2.exe E$:/Code/clion_code/practice/.runtime/test3.exe E$:/Code/clion_code/practice/.runtime/topological_sorting.exe
+build all: phony E$:/Code/clion_code/practice/.runtime/A.exe E$:/Code/clion_code/practice/.runtime/B.exe E$:/Code/clion_code/practice/.runtime/19714.exe E$:/Code/clion_code/practice/.runtime/19717.exe E$:/Code/clion_code/practice/.runtime/19733.exe E$:/Code/clion_code/practice/.runtime/20178.exe E$:/Code/clion_code/practice/.runtime/20240.exe E$:/Code/clion_code/practice/.runtime/20241.exe E$:/Code/clion_code/practice/.runtime/20264.exe E$:/Code/clion_code/practice/.runtime/20266.exe E$:/Code/clion_code/practice/.runtime/20267.exe E$:/Code/clion_code/practice/.runtime/20270.exe E$:/Code/clion_code/practice/.runtime/20271.exe E$:/Code/clion_code/practice/.runtime/20273.exe E$:/Code/clion_code/practice/.runtime/20274.exe E$:/Code/clion_code/practice/.runtime/20287.exe E$:/Code/clion_code/practice/.runtime/20288.exe E$:/Code/clion_code/practice/.runtime/20289.exe E$:/Code/clion_code/practice/.runtime/303.exe E$:/Code/clion_code/practice/.runtime/A_17104.exe E$:/Code/clion_code/practice/.runtime/A_3492.exe E$:/Code/clion_code/practice/.runtime/B_p12338.exe E$:/Code/clion_code/practice/.runtime/C_p12339.exe E$:/Code/clion_code/practice/.runtime/D_12340.exe E$:/Code/clion_code/practice/.runtime/E_p12342.exe E$:/Code/clion_code/practice/.runtime/F_p12343.exe E$:/Code/clion_code/practice/.runtime/H_p12344.exe E$:/Code/clion_code/practice/.runtime/P1028.exe E$:/Code/clion_code/practice/.runtime/P12130.exe E$:/Code/clion_code/practice/.runtime/T207707.exe E$:/Code/clion_code/practice/.runtime/T270713.exe E$:/Code/clion_code/practice/.runtime/T270714.exe E$:/Code/clion_code/practice/.runtime/p1002.exe E$:/Code/clion_code/practice/.runtime/p1003.exe E$:/Code/clion_code/practice/.runtime/p1036.exe E$:/Code/clion_code/practice/.runtime/p1055.exe E$:/Code/clion_code/practice/.runtime/p1059.exe E$:/Code/clion_code/practice/.runtime/p1062.exe E$:/Code/clion_code/practice/.runtime/p1063.exe E$:/Code/clion_code/practice/.runtime/p1093.exe E$:/Code/clion_code/practice/.runtime/p1113.exe E$:/Code/clion_code/practice/.runtime/p1115.exe E$:/Code/clion_code/practice/.runtime/p1164.exe E$:/Code/clion_code/practice/.runtime/p1182.exe E$:/Code/clion_code/practice/.runtime/p12131.exe E$:/Code/clion_code/practice/.runtime/p12132.exe E$:/Code/clion_code/practice/.runtime/p12133.exe E$:/Code/clion_code/practice/.runtime/p12134.exe E$:/Code/clion_code/practice/.runtime/p1216.exe E$:/Code/clion_code/practice/.runtime/p1226.exe E$:/Code/clion_code/practice/.runtime/p1303.exe E$:/Code/clion_code/practice/.runtime/p1314.exe E$:/Code/clion_code/practice/.runtime/p1434.exe E$:/Code/clion_code/practice/.runtime/p1496.exe E$:/Code/clion_code/practice/.runtime/p1601.exe E$:/Code/clion_code/practice/.runtime/p1678.exe E$:/Code/clion_code/practice/.runtime/p1706.exe E$:/Code/clion_code/practice/.runtime/p1719.exe E$:/Code/clion_code/practice/.runtime/p1824.exe E$:/Code/clion_code/practice/.runtime/p2036.exe E$:/Code/clion_code/practice/.runtime/p2084.exe E$:/Code/clion_code/practice/.runtime/p2367.exe E$:/Code/clion_code/practice/.runtime/p2440.exe E$:/Code/clion_code/practice/.runtime/p2678.exe E$:/Code/clion_code/practice/.runtime/p3397.exe E$:/Code/clion_code/practice/.runtime/p3799.exe E$:/Code/clion_code/practice/.runtime/p3853.exe E$:/Code/clion_code/practice/.runtime/p4017.exe E$:/Code/clion_code/practice/.runtime/p5318.exe E$:/Code/clion_code/practice/.runtime/p5743.exe E$:/Code/clion_code/practice/.runtime/p8218.exe E$:/Code/clion_code/practice/.runtime/CreatGraph.exe E$:/Code/clion_code/practice/.runtime/STL.exe E$:/Code/clion_code/practice/.runtime/class.exe E$:/Code/clion_code/practice/.runtime/class1.exe E$:/Code/clion_code/practice/.runtime/combination.exe E$:/Code/clion_code/practice/.runtime/compare_tree.exe E$:/Code/clion_code/practice/.runtime/fastPow.exe E$:/Code/clion_code/practice/.runtime/fullArray.exe E$:/Code/clion_code/practice/.runtime/high_precision.exe E$:/Code/clion_code/practice/.runtime/infile.exe E$:/Code/clion_code/practice/.runtime/main.exe E$:/Code/clion_code/practice/.runtime/next_permutation.exe E$:/Code/clion_code/practice/.runtime/operator.exe E$:/Code/clion_code/practice/.runtime/outfile.exe E$:/Code/clion_code/practice/.runtime/pointCount_tree.exe E$:/Code/clion_code/practice/.runtime/polynomial_calculation.exe E$:/Code/clion_code/practice/.runtime/prime_num.exe E$:/Code/clion_code/practice/.runtime/test.exe E$:/Code/clion_code/practice/.runtime/test2.exe E$:/Code/clion_code/practice/.runtime/test3.exe E$:/Code/clion_code/practice/.runtime/topological_sorting.exe
 
 # =============================================================================
 # Built-in targets
