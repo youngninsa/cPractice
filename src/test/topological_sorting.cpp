@@ -2,7 +2,7 @@
 
 using namespace std;
 using ll = long long;
-const int N = 2e5+9;
+const int N = 1e6+7;
 //ifstream ifs,ofs;
 
 class TopoSort
